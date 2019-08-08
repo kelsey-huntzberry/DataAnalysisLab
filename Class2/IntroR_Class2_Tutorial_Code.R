@@ -121,4 +121,24 @@ length(unique(opioid.df$year))
 nrow(opioid.df)
 ncol(opioid.df)
 
+# Read in example data for factors
+state.df <- read.csv("~/Documents/R_Class_Meetup/Class4/Data/factor_demonstration_data.csv", stringsAsFactors = F)
 
+# Creating a factor variable with state column, placing full state name as the labe
+# NOTE: This is an unordered factor, that is the default with this function
+state.df$states <- factor(state.df$states, 
+                          levels = c("AL", "AK", "DE", "TX"),
+                          labels = c("Alabama", "Alaska", "Delaware", "Texas"))
+
+# Creating a factor variable with temp.group column
+# NOTE: I created this factor as an ordered factor with ordered = TRUE
+state.df$temp.group <- factor(state.df$temp.group,
+                              levels = c("Low", "Medium", "High"),
+                              ordered = TRUE)
+
+# Notice when you compare values in the temp.group column, you get a value because its ordered
+state.df[1,3] > state.df[3,3]
+
+# You will get an error with this code because the states variable is NOT ordered 
+## so the values cannot be compared
+state.df[1,1] > state.df[3,1]
