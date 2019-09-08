@@ -1,0 +1,217 @@
+country,population.growth.percent.2011,growth.direction,corrupt.perc.score,corrupt.perc.rank,corrupt.level,human.develop.index.2011,human.devel.level
+Rwanda,2.957934993,Population Increase,56,48,High Corruption,0.429,Low Development
+Bhutan,1.683818101,Population Increase,68,25,High Corruption,0.522,Low Development
+Namibia,1.76746128,Population Increase,53,52,High Corruption,0.625,Medium Development
+Botswana,1.178560843,Population Increase,61,34,High Corruption,0.633,Medium Development
+Jordan,2.191778939,Population Increase,49,58,High Corruption,0.698,Medium Development
+Oman,2.263900346,Population Increase,52,53,High Corruption,0.705,Medium Development
+Saint Vincent and the Grenadines,0.0292641,Population Increase,58,41,High Corruption,0.717,Medium Development
+Saint Lucia,1.142869582,Population Increase,55,50,High Corruption,0.723,Medium Development
+Dominica,-0.121093996,Population Decrease,57,45,High Corruption,0.724,Medium Development
+Mauritius,0.399459038,Population Increase,51,56,High Corruption,0.728,Medium Development
+Georgia,0.742832431,Population Increase,58,41,High Corruption,0.733,Medium Development
+Costa Rica,1.442426033,Population Increase,56,48,High Corruption,0.744,Medium Development
+Grenada,0.384952022,Population Increase,52,53,High Corruption,0.748,Medium Development
+Saudi Arabia,2.285162777,Population Increase,49,58,High Corruption,0.77,High Development
+Bahamas,1.24600737,Population Increase,65,29,High Corruption,0.771,High Development
+Seychelles,-0.608609327,Population Decrease,66,28,High Corruption,0.773,High Development
+Uruguay,0.357195333,Population Increase,70,23,High Corruption,0.783,High Development
+Barbados,0.217083132,Population Increase,68,25,High Corruption,0.793,High Development
+Croatia,-0.249291914,Population Decrease,48,60,High Corruption,0.796,High Development
+Chile,0.90647763,Population Increase,67,27,High Corruption,0.805,High Development
+Latvia,-0.852571475,Population Decrease,58,41,High Corruption,0.805,High Development
+Portugal,-0.003252744,Population Decrease,64,30,High Corruption,0.809,High Development
+Lithuania,-2.583266138,Population Decrease,59,38,High Corruption,0.81,High Development
+Poland,0.084599833,Population Increase,60,36,High Corruption,0.813,High Development
+Qatar,6.133257743,Population Increase,62,33,High Corruption,0.831,High Development
+Malta,0.719767896,Population Increase,54,51,High Corruption,0.832,High Development
+Slovakia,0.182169504,Population Increase,50,57,High Corruption,0.834,High Development
+Estonia,-0.012014204,Population Decrease,73,18,High Corruption,0.835,High Development
+Brunei,1.743954305,Population Increase,63,31,High Corruption,0.838,High Development
+Cyprus,1.16359623,Population Increase,59,38,High Corruption,0.84,High Development
+United Arab Emirates,4.925276452,Population Increase,70,23,High Corruption,0.846,High Development
+United Kingdom,0.65613487,Population Increase,80,11,High Corruption,0.863,High Development
+Czech Republic,0.248820586,Population Increase,59,38,High Corruption,0.865,High Development
+Singapore,2.08576428,Population Increase,85,3,High Corruption,0.866,High Development
+Luxembourg,1.962457738,Population Increase,81,9,High Corruption,0.867,High Development
+Italy,0.472754693,Population Increase,52,53,High Corruption,0.874,High Development
+Spain,0.355403168,Population Increase,58,41,High Corruption,0.878,High Development
+Finland,0.439949095,Population Increase,85,3,High Corruption,0.882,High Development
+France,0.553180682,Population Increase,72,21,High Corruption,0.884,High Development
+Slovenia,0.166659267,Population Increase,60,36,High Corruption,0.884,High Development
+Austria,0.347783065,Population Increase,76,14,High Corruption,0.885,High Development
+Belgium,1.024626399,Population Increase,75,17,High Corruption,0.886,High Development
+Israel,1.846790156,Population Increase,61,34,High Corruption,0.888,High Development
+Denmark,0.473256595,Population Increase,88,1,High Corruption,0.895,High Development
+South Korea,0.744037549,Population Increase,57,45,High Corruption,0.897,High Development
+Hong Kong,0.053750514,Population Increase,76,14,High Corruption,0.898,High Development
+Iceland,0.30107975,Population Increase,76,14,High Corruption,0.898,High Development
+Japan,0.287398837,Population Increase,73,18,High Corruption,0.901,High Development
+Switzerland,1.027736927,Population Increase,85,3,High Corruption,0.903,High Development
+Sweden,0.795219517,Population Increase,85,3,High Corruption,0.904,High Development
+Germany,-0.06229858,Population Decrease,80,11,High Corruption,0.905,High Development
+New Zealand,0.852621146,Population Increase,87,2,High Corruption,0.908,High Development
+Canada,1.039517903,Population Increase,81,9,High Corruption,0.908,High Development
+Ireland,0.282189624,Population Increase,73,18,High Corruption,0.908,High Development
+Netherlands,0.483955474,Population Increase,82,8,High Corruption,0.91,High Development
+United States,0.722205671,Population Increase,71,22,High Corruption,0.91,High Development
+Australia,1.428328572,Population Increase,77,13,High Corruption,0.929,High Development
+Norway,1.275220883,Population Increase,84,7,High Corruption,0.943,High Development
+Taiwan,NA,NA,63,31,High Corruption,NA,NA
+Cabo Verde,NA,NA,57,45,High Corruption,NA,NA
+Democratic Republic of the Congo,2.679994104,Population Increase,20,161,Low Corruption,0.286,Low Development
+Burundi,2.268321831,Population Increase,17,170,Low Corruption,0.316,Low Development
+Mozambique,2.277941324,Population Increase,23,158,Low Corruption,0.322,Low Development
+Chad,2.622150676,Population Increase,19,165,Low Corruption,0.328,Low Development
+Sierra Leone,2.190559721,Population Increase,30,129,Low Corruption,0.336,Low Development
+Central African Republic,1.930462313,Population Increase,26,149,Low Corruption,0.343,Low Development
+Guinea,2.378108088,Population Increase,28,138,Low Corruption,0.344,Low Development
+Eritrea,3.029656527,Population Increase,24,157,Low Corruption,0.349,Low Development
+Guinea-Bissau,2.079371915,Population Increase,16,172,Low Corruption,0.353,Low Development
+Zimbabwe,1.444589707,Population Increase,22,160,Low Corruption,0.376,Low Development
+Afghanistan,2.720299986,Population Increase,16,172,Low Corruption,0.398,Low Development
+Sudan,2.104691124,Population Increase,16,172,Low Corruption,0.408,Low Development
+Djibouti,1.87802296,Population Increase,31,124,Low Corruption,0.43,Low Development
+Comoros,2.578646303,Population Increase,27,144,Low Corruption,0.433,Low Development
+Togo,2.085260745,Population Increase,30,129,Low Corruption,0.435,Low Development
+Uganda,3.193146102,Population Increase,26,149,Low Corruption,0.446,Low Development
+Mauritania,2.335868082,Population Increase,27,144,Low Corruption,0.453,Low Development
+Haiti,1.297823847,Population Increase,20,161,Low Corruption,0.454,Low Development
+Nepal,1.741900571,Population Increase,31,124,Low Corruption,0.458,Low Development
+Nigeria,2.522808587,Population Increase,27,144,Low Corruption,0.459,Low Development
+Yemen,3.059929114,Population Increase,14,176,Low Corruption,0.462,Low Development
+Papua New Guinea,2.24291315,Population Increase,28,138,Low Corruption,0.466,Low Development
+Madagascar,2.861632169,Population Increase,25,152,Low Corruption,0.48,Low Development
+Cameroon,2.177634145,Population Increase,25,152,Low Corruption,0.482,Low Development
+Myanmar,0.776227933,Population Increase,29,132,Low Corruption,0.483,Low Development
+Angola,2.772866185,Population Increase,19,165,Low Corruption,0.486,Low Development
+Bangladesh,1.204301033,Population Increase,26,149,Low Corruption,0.5,Low Development
+Kenya,2.671892519,Population Increase,27,144,Low Corruption,0.509,Low Development
+Cambodia,1.173767507,Population Increase,20,161,Low Corruption,0.523,Low Development
+Laos,1.395546413,Population Increase,29,132,Low Corruption,0.524,Low Development
+Congo,2.367290752,Population Increase,19,165,Low Corruption,0.533,Low Development
+Equatorial Guinea,2.789397343,Population Increase,16,172,Low Corruption,0.537,Low Development
+Iraq,2.8655481,Population Increase,18,168,Low Corruption,0.573,Low Development
+Guatemala,2.527986837,Population Increase,27,144,Low Corruption,0.574,Low Development
+Nicaragua,1.401564302,Population Increase,25,152,Low Corruption,0.589,Low Development
+Tajikistan,1.419248331,Population Increase,25,152,Low Corruption,0.607,Low Development
+Kyrgyzstan,1.087367101,Population Increase,29,132,Low Corruption,0.615,Low Development
+Honduras,2.008024247,Population Increase,29,132,Low Corruption,0.625,Medium Development
+Syria,1.811195097,Population Increase,13,178,Low Corruption,0.632,Medium Development
+Uzbekistan,2.690150412,Population Increase,23,158,Low Corruption,0.641,Medium Development
+Maldives,1.319586546,Population Increase,31,124,Low Corruption,0.661,Medium Development
+Bolivia,1.58120329,Population Increase,29,132,Low Corruption,0.663,Medium Development
+Paraguay,1.746852604,Population Increase,29,132,Low Corruption,0.665,Medium Development
+Gabon,1.894899158,Population Increase,31,124,Low Corruption,0.674,Medium Development
+Turkmenistan,1.247757459,Population Increase,20,161,Low Corruption,0.686,Medium Development
+Dominican Republic,1.289691792,Population Increase,30,129,Low Corruption,0.689,Medium Development
+Iran,1.109047651,Population Increase,28,138,Low Corruption,0.707,Medium Development
+Azerbaijan,1.247584276,Population Increase,25,152,Low Corruption,0.731,Medium Development
+Venezuela,1.528113436,Population Increase,18,168,Low Corruption,0.735,Medium Development
+Lebanon,0.749573263,Population Increase,28,138,Low Corruption,0.739,Medium Development
+Kazakhstan,1.43043505,Population Increase,31,124,Low Corruption,0.745,Medium Development
+Russia,0.007045975,Population Increase,28,138,Low Corruption,0.755,Medium Development
+Libya,1.059027181,Population Increase,17,170,Low Corruption,0.76,Medium Development
+Mexico,1.200887,Population Increase,28,138,Low Corruption,0.77,High Development
+North Korea,0.430579977,Population Increase,14,176,Low Corruption,NA,NA
+South Sudan,3.610214731,Population Increase,13,178,Low Corruption,NA,NA
+Somalia,2.393210906,Population Increase,10,180,Low Corruption,NA,NA
+Niger,3.528068865,Population Increase,34,114,Medium Corruption,0.295,Low Development
+Liberia,3.310780413,Population Increase,32,120,Medium Corruption,0.329,Low Development
+Burkina Faso,2.98576226,Population Increase,41,78,Medium Corruption,0.331,Low Development
+Mali,3.010408863,Population Increase,32,120,Medium Corruption,0.359,Low Development
+Ethiopia,2.128754673,Population Increase,34,114,Medium Corruption,0.363,Low Development
+Cote d'Ivoire,2.081232195,Population Increase,35,105,Medium Corruption,0.4,Low Development
+Malawi,3.170804542,Population Increase,32,120,Medium Corruption,0.4,Low Development
+Gambia,2.722898473,Population Increase,37,93,Medium Corruption,0.42,Low Development
+Benin,2.78605865,Population Increase,40,85,Medium Corruption,0.427,Low Development
+Zambia,4.156064613,Population Increase,35,105,Medium Corruption,0.43,Low Development
+Lesotho,1.032044405,Population Increase,41,78,Medium Corruption,0.45,Low Development
+Senegal,2.649448556,Population Increase,45,67,Medium Corruption,0.459,Low Development
+Tanzania,3.025190844,Population Increase,36,99,Medium Corruption,0.466,Low Development
+Timor-Leste,2.879620912,Population Increase,35,105,Medium Corruption,0.495,Low Development
+Pakistan,1.799439016,Population Increase,33,117,Medium Corruption,0.504,Low Development
+Sao Tome and Principe,1.874139598,Population Increase,46,64,Medium Corruption,0.509,Low Development
+Solomon Islands,2.589800972,Population Increase,44,70,Medium Corruption,0.51,Low Development
+Swaziland,1.155489833,Population Increase,38,89,Medium Corruption,0.522,Low Development
+Ghana,2.3259576,Population Increase,41,78,Medium Corruption,0.541,Low Development
+India,1.368789058,Population Increase,41,78,Medium Corruption,0.547,Low Development
+Morocco,1.001378782,Population Increase,43,73,Medium Corruption,0.582,Low Development
+Vietnam,1.044023909,Population Increase,33,117,Medium Corruption,0.593,Low Development
+Vanuatu,2.45978565,Population Increase,46,64,Medium Corruption,0.617,Medium Development
+Indonesia,1.018141701,Population Increase,38,89,Medium Corruption,0.617,Medium Development
+South Africa,1.184083238,Population Increase,43,73,Medium Corruption,0.619,Medium Development
+Guyana,0.204828434,Population Increase,37,93,Medium Corruption,0.633,Medium Development
+Philippines,1.69182503,Population Increase,36,99,Medium Corruption,0.644,Medium Development
+Egypt,1.730107463,Population Increase,35,105,Medium Corruption,0.644,Medium Development
+Moldova,-0.085998414,Population Decrease,33,117,Medium Corruption,0.649,Medium Development
+Mongolia,1.587941464,Population Increase,37,93,Medium Corruption,0.653,Medium Development
+El Salvador,0.55550313,Population Increase,35,105,Medium Corruption,0.674,Medium Development
+Suriname,0.907549004,Population Increase,43,73,Medium Corruption,0.68,Medium Development
+Thailand,0.571725078,Population Increase,36,99,Medium Corruption,0.682,Medium Development
+China,0.470180269,Population Increase,39,87,Medium Corruption,0.687,Medium Development
+Sri Lanka,1.040421697,Population Increase,38,89,Medium Corruption,0.691,Medium Development
+Tunisia,NA,NA,43,73,Medium Corruption,0.698,Medium Development
+Algeria,1.433184666,Population Increase,35,105,Medium Corruption,0.698,Medium Development
+Turkey,1.21220059,Population Increase,41,78,Medium Corruption,0.699,Medium Development
+Colombia,1.356533708,Population Increase,36,99,Medium Corruption,0.71,Medium Development
+Armenia,0.263682127,Population Increase,35,105,Medium Corruption,0.716,Medium Development
+Brazil,0.872598757,Population Increase,35,105,Medium Corruption,0.718,Medium Development
+Ecuador,1.382174512,Population Increase,34,114,Medium Corruption,0.72,Medium Development
+Peru,1.105774934,Population Increase,35,105,Medium Corruption,0.725,Medium Development
+Jamaica,0.258870989,Population Increase,44,70,Medium Corruption,0.727,Medium Development
+Macedonia,0.161475876,Population Increase,37,93,Medium Corruption,0.728,Medium Development
+Ukraine,-0.359480081,Population Decrease,32,120,Medium Corruption,0.729,Medium Development
+Bosnia and Herzegovina,-0.210878739,Population Decrease,38,89,Medium Corruption,0.733,Medium Development
+Albania,0.364595549,Population Increase,36,99,Medium Corruption,0.739,Medium Development
+Belarus,-0.179296573,Population Decrease,44,70,Medium Corruption,0.756,Medium Development
+Trinidad and Tobago,0.363492679,Population Increase,41,78,Medium Corruption,0.76,Medium Development
+Kuwait,2.927780972,Population Increase,41,78,Medium Corruption,0.76,Medium Development
+Malaysia,1.60022846,Population Increase,47,61,Medium Corruption,0.761,High Development
+Serbia,-0.418294839,Population Decrease,39,87,Medium Corruption,0.766,High Development
+Panama,1.534030129,Population Increase,37,93,Medium Corruption,0.768,High Development
+Montenegro,0.122017723,Population Increase,45,67,Medium Corruption,0.771,High Development
+Bulgaria,-0.776657838,Population Decrease,42,77,Medium Corruption,0.771,High Development
+Cuba,-0.038326833,Population Decrease,47,61,Medium Corruption,0.776,High Development
+Romania,-0.224157182,Population Decrease,47,61,Medium Corruption,0.781,High Development
+Argentina,0.867702633,Population Increase,40,85,Medium Corruption,0.797,High Development
+Bahrain,4.773917665,Population Increase,36,99,Medium Corruption,0.806,High Development
+Hungary,-0.290651314,Population Decrease,46,64,Medium Corruption,0.816,High Development
+Greece,-0.101752885,Population Decrease,45,67,Medium Corruption,0.861,High Development
+Kosovo,1.043319754,Population Increase,37,93,Medium Corruption,NA,NA
+Cape Verde,0.920350391,Population Increase,NA,NA,NA,0.568,Low Development
+Kiribati,1.542103636,Population Increase,NA,NA,NA,0.624,Medium Development
+Micronesia,0.429458986,Population Increase,NA,NA,NA,0.636,Medium Development
+West Bank and Gaza,2.878985513,Population Increase,NA,NA,NA,0.641,Medium Development
+Samoa,0.432206257,Population Increase,NA,NA,NA,0.688,Medium Development
+Fiji,0.900280165,Population Increase,NA,NA,NA,0.688,Medium Development
+Belize,3.394023191,Population Increase,NA,NA,NA,0.699,Medium Development
+Tonga,0.43247561,Population Increase,NA,NA,NA,0.704,Medium Development
+Saint Kitts and Nevis,1.230895649,Population Increase,NA,NA,NA,0.735,Medium Development
+Antigua and Barbuda,1.011661705,Population Increase,NA,NA,NA,0.764,High Development
+Palau,0.666977473,Population Increase,NA,NA,NA,0.782,High Development
+Andorra,1.521408761,Population Increase,NA,NA,NA,0.838,High Development
+Liechtenstein,0.752049552,Population Increase,NA,NA,NA,0.905,High Development
+Sint Maarten,-3.333686807,Population Decrease,NA,NA,NA,NA,NA
+Puerto Rico,-0.41159523,Population Decrease,NA,NA,NA,NA,NA
+Virgin Islands (U.S.),-0.07656689,Population Decrease,NA,NA,NA,NA,NA
+Monaco,0.056470058,Population Increase,NA,NA,NA,NA,NA
+Tuvalu,0.203314089,Population Increase,NA,NA,NA,NA,NA
+Faeroe Islands,0.317717622,Population Increase,NA,NA,NA,NA,NA
+Channel Islands,0.341115073,Population Increase,NA,NA,NA,NA,NA
+Greenland,0.372538545,Population Increase,NA,NA,NA,NA,NA
+Northern Mariana Islands,0.420998075,Population Increase,NA,NA,NA,NA,NA
+Isle of Man,0.551157861,Population Increase,NA,NA,NA,NA,NA
+Aruba,0.605671775,Population Increase,NA,NA,NA,NA,NA
+San Marino,0.635384394,Population Increase,NA,NA,NA,NA,NA
+Bermuda,0.720768405,Population Increase,NA,NA,NA,NA,NA
+New Caledonia,0.806455984,Population Increase,NA,NA,NA,NA,NA
+Cayman Islands,0.883512152,Population Increase,NA,NA,NA,NA,NA
+French Polynesia,1.106631364,Population Increase,NA,NA,NA,NA,NA
+Guam,1.223748514,Population Increase,NA,NA,NA,NA,NA
+Saint Martin,1.24898912,Population Increase,NA,NA,NA,NA,NA
+Curacao,1.26814483,Population Increase,NA,NA,NA,NA,NA
+Marshall Islands,1.429461936,Population Increase,NA,NA,NA,NA,NA
+American Samoa,1.628008674,Population Increase,NA,NA,NA,NA,NA
+Turks and Caicos Islands,2.140967536,Population Increase,NA,NA,NA,NA,NA
+"Macao, China",2.196767033,Population Increase,NA,NA,NA,NA,NA
