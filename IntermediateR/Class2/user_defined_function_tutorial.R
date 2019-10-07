@@ -1,3 +1,5 @@
+# User-defined function introduction
+
 #install.packages("data.table")
 #install.packages("dplyr")
 #install.packages("parallel")
@@ -7,6 +9,7 @@ library(dplyr)
 library(purrr)
 library(parallel)
 
+# Obtain TEDS data at this link: https://www.datafiles.samhsa.gov/study-series/treatment-episode-data-set-admissions-teds-nid13518
 teds <- as.data.frame(fread("~/Documents/R_Class_Meetup/Class7/tedsa_puf_2017.csv"), stringsAsFactors = F)
 illicit.drug <- read.csv("~/Documents/R_Class_Meetup/Class7/illicit_drug_use_by_state.csv", stringsAsFactors = F)
 
