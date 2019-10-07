@@ -1,4 +1,4 @@
-# Statistics: Class #5
+# Statistics in R Class #5, Chi Square
 
 # Set working directory
 setwd("~/Documents/R_Class_Meetup/Statistics/Class5")
