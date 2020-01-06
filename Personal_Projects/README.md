@@ -1,4 +1,4 @@
-## Project Name: Predicting Substance Abuse Treatment Readmission
+# Project Name: Predicting Substance Abuse Treatment Readmission
 
 ## Project Data:
 This code uses the Treatment Episode Data Set or TEDS (https://www.datafiles.samhsa.gov/study-series/treatment-episode-data-set-admissions-teds-nid13518), which includes all publicly funded substance abuse treatment admissions in the US. Along with thesse records of admission, basic demographics and substance use history are included in the data set.
