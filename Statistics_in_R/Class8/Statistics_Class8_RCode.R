@@ -1,4 +1,4 @@
-# Statistics in R: Class 7, Correlation and Simple Linear Regression
+# Statistics in R: Class 8, Evaluating Linear Regression Models
 
 # Install any packages you don't already have!
 library(dplyr)
