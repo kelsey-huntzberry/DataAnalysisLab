@@ -1,0 +1,471 @@
+---
+title: "ggplot2 Graphing Display"
+author: "Kelsey Huntzberry"
+date: "6/21/2019"
+output: html_document
+---
+
+```{r}
+her.opioid <- read.csv("~/Documents/R_Class_Meetup/Class5/Data/state_overdoses_heroin_opioids.csv", stringsAsFactors = F)
+
+county.pres <- read.csv("~/Documents/R_Class_Meetup/Class5/Data/county_prescribing_rates_data.csv", stringsAsFactors = F)
+
+state.pres <- read.csv("~/Documents/R_Class_Meetup/Class5/Data/state_prescribe_overdose_data.csv", stringsAsFactors = F)
+
+library(rmarkdown)
+library(ggplot2)
+library(ggrepel)
+```
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Create summary data and basic line graph
+```{r}
+# Create summarized graphing data
+opioid.only <- subset(her.opioid, drug == "Opioid Analgesic")
+
+opioid.year.region <- aggregate(opioid.only$overdose.rate, 
+                                by = list(opioid.only$region, opioid.only$year), 
+                                FUN = mean, na.rm = TRUE)
+
+colnames(opioid.year.region) <- c("region", "year", "mean.overdose.rate")
+
+# Create basic line graph
+opioid.od.line <- ggplot(data = opioid.year.region, 
+                         aes(x = year, y = mean.overdose.rate, color = region)) +
+  geom_line()
+  
+opioid.od.line
+
+```
+
+## Reorder lines
+## Add graph titles and labels, setting figure size, increasing width of lines
+```{r}
+
+## I would like my regions listed as Northeast, Midwest, South, and West because this makes sense more logically
+## To do this, you need to make it a factor variable and specify levels
+opioid.year.region$region <- factor(opioid.year.region$region, 
+                                    levels = c("Northeast", "Midwest", "South", "West"))
+
+opioid.od.line <- ggplot(data = opioid.year.region, 
+                         aes(x = year, y = mean.overdose.rate, color = region)) +
+                  geom_line(size = 1) +
+                  labs(title = "Average State Overdose Rate per 100,000 Persons\nby Region and Year",
+                     color = "Region",
+                     x = "Year",
+                     y = "Mean State Overdose Rate\nper 100,000 People")
+  
+opioid.od.line
+
+```
+
+## Add plot theme (getting rid of default gray background) and line changing colors
+```{r}
+
+opioid.od.line <- ggplot(data = opioid.year.region, 
+                         aes(x = year, y = mean.overdose.rate, color = region)) +
+  geom_line(size = 1) +
+  labs(title = "Average State Overdose Rate per 100,000 Persons\nby Region and Year",
+     color = "Region",
+     x = "Year",
+     y = "Mean State Overdose Rate") +
+  theme_minimal() +
+  scale_color_brewer(palette = "Set1")
+  
+  
+opioid.od.line
+
+```
+
+## Adding points to my plot lines
+## Formatting all graph text and legend position
+```{r}
+
+opioid.od.line <- ggplot(data = opioid.year.region, 
+                         aes(x = year, y = mean.overdose.rate, color = region)) +
+  geom_line(size = 1) +
+  geom_point(size = 1) +
+  labs(title = "Average State Overdose Rate per 100,000 Persons\nby Region and Year",
+     color = "Region",
+     x = "Year",
+     y = "Mean State Overdose Rate") +
+  theme_minimal() +
+  scale_color_brewer(palette = "Set1") +
+  theme(plot.title = element_text(size = 14, hjust = 0.5, face = "bold"), 
+        axis.title = element_text(size = 13),
+        axis.text = element_text(size = 13, color = "black"),
+        legend.title = element_text(size = 14, hjust = 0.5),
+        legend.text = element_text(size = 13),
+        legend.position = "bottom")
+  
+opioid.od.line
+
+```
+
+## Exporting file with specific dimensions, file type, and quality
+```{r}
+
+opioid.od.line <- ggplot(data = opioid.year.region, 
+                         aes(x = year, y = mean.overdose.rate, color = region)) +
+  geom_line(size = 1) +
+  geom_point(size = 1) +
+  labs(title = "Average State Overdose Rate per 100,000 Persons\nby Region and Year",
+     color = "Region",
+     x = "Year",
+     y = "Mean State Overdose Rate") +
+  theme_minimal() +
+  scale_color_brewer(palette = "Set1") +
+  theme(plot.title = element_text(size = 14, hjust = 0.5, face = "bold"), 
+        axis.title = element_text(size = 13),
+        axis.text = element_text(size = 13),
+        legend.title = element_text(size = 14, hjust = 0.5),
+        legend.text = element_text(size = 13),
+        legend.position = "bottom")
+
+# Saving file
+## Setting file name
+ggsave(filename = "~/Documents/R_Class_Meetup/Class5/Results/opioid_line_graph.jpeg",
+       # Specifying which R object to export
+       plot = opioid.od.line,
+       # Specify dimensions
+       width = 7, height = 4.5,
+       # Specify units of the dimensions
+       units = "in",
+       # Specify quality (larger equals larger file size)
+       dpi = 300)
+
+```
+
+## Start a new graph showing current average opioid prescribing by rural.metro and region
+## Create summarized data and create basic plot
+```{r}
+
+table(county.pres$year)
+# Most current year is 2017
+
+prescribe.2017 <- subset(county.pres, year == 2017)
+
+avg.pres.rururb.region <- aggregate(prescribe.2017$prescribing.rate, 
+                                    by = list(prescribe.2017$rural.metro, prescribe.2017$region), 
+                                    FUN = mean, na.rm = TRUE)
+
+colnames(avg.pres.rururb.region) <- c("rural.metro", "region", "avg.pres.rate")
+
+pres.bar.rururb <- ggplot(data = avg.pres.rururb.region, 
+                            aes(x = region, y = avg.pres.rate, fill = rural.metro)) +
+  geom_bar(stat = "identity")
+
+pres.bar.rururb
+
+```
+
+## In this case it makes no sense to do a stacked bar graph with aggregate bars
+## Changing this to a grouped bar graph
+```{r}
+
+pres.bar.rururb <- ggplot(data = avg.pres.rururb.region, 
+                            aes(x = region, y = avg.pres.rate, fill = rural.metro)) +
+  geom_bar(stat = "identity", position = position_dodge())
+
+pres.bar.rururb
+
+```
+
+## I want to change my theme and manually change my bar colors
+```{r}
+
+pres.bar.rururb <- ggplot(data = avg.pres.rururb.region, 
+                            aes(x = region, y = avg.pres.rate, fill = rural.metro)) +
+  geom_bar(stat = "identity", position = position_dodge()) +
+  theme_light() +
+  scale_fill_manual(values = c("#99CC66", "#006633"))
+
+pres.bar.rururb
+
+```
+# Adding labels
+```{r}
+
+pres.bar.rururb <- ggplot(data = avg.pres.rururb.region, 
+                            aes(x = region, y = avg.pres.rate, fill = rural.metro)) +
+  geom_bar(stat = "identity", position = position_dodge()) +
+  theme_light() +
+  scale_fill_manual(values = c("#99CC66", "#006633")) +
+  labs(title = "Average State Prescribing Rate per 100 Persons\nby Region and Rural Status, 2017",
+       fill = "Rural Status",
+       x = "Region",
+       y = "Mean County Prescribing Rate")
+
+pres.bar.rururb
+
+```
+
+## Increase label size, color, and format legend
+```{r}
+
+pres.bar.rururb <- ggplot(data = avg.pres.rururb.region, 
+                            aes(x = region, y = avg.pres.rate, fill = rural.metro)) +
+  geom_bar(stat = "identity", position = position_dodge()) +
+  theme_light() +
+  scale_fill_manual(values = c("#99CC66", "#006633")) +
+  labs(title = "Average State Prescribing Rate per 100 Persons\nby Region and Rural Status, 2017",
+       fill = "Rural Status",
+       x = "Region",
+       y = "Mean County Prescribing Rate") +
+  theme(plot.title = element_text(size = 14, hjust = 0.5, face = "bold"),
+        axis.title = element_text(size = 13),
+        axis.text = element_text(size = 12, color = "black"),
+        legend.title = element_text(size = 13),
+        legend.text = element_text(size = 12),
+        legend.position = "bottom")
+
+pres.bar.rururb
+
+``` 
+
+
+## Order bars by magnitude greatest to smallest
+```{r}
+
+avg.pres.rururb.region$region <- factor(avg.pres.rururb.region$region,
+                                        levels = c("South", "West", "Midwest", "Northeast"))
+
+pres.bar.rururb <- ggplot(data = avg.pres.rururb.region, 
+                            aes(x = region, y = avg.pres.rate, fill = rural.metro)) +
+  geom_bar(stat = "identity", position = position_dodge()) +
+  theme_light() +
+  scale_fill_manual(values = c("#99CC66", "#006633")) +
+  labs(title = "Average State Prescribing Rate per 100 Persons\nby Region and Rural Status, 2017",
+       fill = "Rural Status",
+       x = "Region",
+       y = "Mean County Prescribing Rate") +
+  theme(plot.title = element_text(size = 14, hjust = 0.5, face = "bold"),
+        axis.title = element_text(size = 13),
+        axis.text = element_text(size = 12, color = "black"),
+        legend.title = element_text(size = 13),
+        legend.text = element_text(size = 12),
+        legend.position = "bottom")
+
+pres.bar.rururb
+
+``` 
+
+## Exporting file with specific dimensions, file type (showing .png this time), and quality 
+```{r}
+
+avg.pres.rururb.region$region <- factor(avg.pres.rururb.region$region,
+                                        levels = c("South", "West", "Midwest", "Northeast"))
+
+pres.bar.rururb <- ggplot(data = avg.pres.rururb.region, 
+                            aes(x = region, y = avg.pres.rate, fill = rural.metro)) +
+  geom_bar(stat = "identity", position = position_dodge()) +
+  theme_light() +
+  scale_fill_manual(values = c("#99CC66", "#006633")) +
+  labs(title = "Average State Prescribing Rate per 100 Persons\nby Region and Rural Status, 2017",
+       fill = "Rural Status",
+       x = "Region",
+       y = "Mean County Prescribing Rate") +
+  theme(plot.title = element_text(size = 14, hjust = 0.5, face = "bold"),
+        axis.title = element_text(size = 13),
+        axis.text = element_text(size = 12, color = "black"),
+        legend.title = element_text(size = 13),
+        legend.text = element_text(size = 12),
+        legend.position = "bottom")
+
+# Saving file
+# Setting file name
+ggsave(filename = "~/Documents/R_Class_Meetup/Class5/Results/rural_prescribe_bar.png",
+       # Specifying which R object to export
+       plot = pres.bar.rururb,
+       # Specify dimensions
+       width = 6, height = 4.5,
+       # Specify units of the dimensions
+       units = "in",
+       # Specify quality (larger equals larger file size)
+       dpi = 300)
+
+``` 
+
+
+## Start with new graph graphing prescribing rates by overdose rates with new state_prescribe_overdose_data.csv
+```{r}
+
+# Subset data to just 2017 data
+state.pres.2017 <- subset(state.pres, year == 2017)
+
+pres.od.scatter <- ggplot(data = state.pres.2017, 
+                            aes(x = prescribing.rate, y = overdose.rate)) +
+  geom_point(size = 1, color = "black")
+
+pres.od.scatter
+```
+
+## Add a regression line to show the average trend or relationship between the two variables
+```{r}
+
+# Subset data to just 2017 data
+state.pres.2017 <-subset(state.pres, year == 2017)
+
+pres.od.scatter <- ggplot(data = state.pres.2017, 
+                            aes(x = prescribing.rate, y = overdose.rate)) +
+  geom_point(size = 1, color = "black") +
+  geom_smooth(method = lm)
+
+pres.od.scatter
+```
+
+## I want to remove the confidence bands from the regression line, change its color, and change the theme to remove grey background
+```{r}
+
+# Subset data to just 2017 data
+state.pres.2017 <-subset(state.pres, year == 2017)
+
+pres.od.scatter <- ggplot(data = state.pres.2017, 
+                            aes(x = prescribing.rate, y = overdose.rate)) +
+  geom_point(size = 1, color = "black") +
+  geom_smooth(method = lm, se = FALSE, color = "blue") +
+  theme_minimal()
+
+pres.od.scatter
+```
+
+## Add labels
+```{r}
+
+# Subset data to just 2017 data
+state.pres.2017 <-subset(state.pres, year == 2017)
+
+pres.od.scatter <- ggplot(data = state.pres.2017, 
+                            aes(x = prescribing.rate, y = overdose.rate)) +
+  geom_point(size = 1, color = "black") +
+  geom_smooth(method = lm, se = FALSE, color = "blue") +
+  theme_minimal() +
+  labs(title = "Average State Opioid Prescribing Rates\nvs. Overdose Rates, 2017",
+     x = "Average Prescribing Rate per 100 Persons",
+     y = "Average Overdose Rate\nper 100,000 Persons")
+
+pres.od.scatter
+```
+
+## Change formatting titles and axis labels
+```{r}
+
+# Subset data to just 2017 data
+pres.od.scatter <- ggplot(data = state.pres.2017, 
+                            aes(x = prescribing.rate, y = overdose.rate)) +
+  geom_point(size = 1, color = "black") +
+  geom_smooth(method = lm, se = FALSE, color = "blue") +
+  theme_minimal() +
+  labs(title = "Average State Opioid Prescribing Rates\nby Overdose Rates, 2017",
+     x = "Average Prescribing Rate per 100 Persons",
+     y = "Average Overdose Rate\nper 100,000 Persons") +
+    theme(plot.title = element_text(size = 14, hjust = 0.5, face = "bold"),
+        axis.title = element_text(size = 13),
+        axis.text = element_text(size = 12, color = "black"))
+
+pres.od.scatter
+```
+
+## X-axis is getting cut off, want to change the scale limits and breaks so the x-axis makes more sense and is more readable
+```{r}
+
+# Subset data to just 2017 data
+pres.od.scatter <- ggplot(data = state.pres.2017, 
+                            aes(x = prescribing.rate, y = overdose.rate)) +
+  geom_point(size = 1, color = "black") +
+  geom_smooth(method = lm, se = FALSE, color = "blue") +
+  theme_minimal() +
+  labs(title = "Average State Opioid Prescribing Rates\nby Overdose Rates, 2017",
+     x = "Average Prescribing Rate per 100 Persons",
+     y = "Average Overdose Rate per 100,000 Persons") +
+    theme(plot.title = element_text(size = 14, hjust = 0.5, face = "bold"),
+        axis.title = element_text(size = 13),
+        axis.text = element_text(size = 12, color = "black")) +
+  scale_x_continuous(limits = c(25, 115), breaks = c(40, 60, 80, 100))
+
+pres.od.scatter
+```
+
+## I want to label the states with the highest overdose rates
+```{r}
+
+# Find 75th percentile of overdose rate as cutoff for showing labels
+perc.75 <- quantile(state.pres.2017$overdose.rate, probs = 0.75)
+
+# Create new variable saying if it above or below this value
+state.pres.2017$label.include <- ifelse(state.pres.2017$overdose.rate > perc.75,
+                                        state.pres.2017$state.abbr, "")
+
+# Subset data to just 2017 data
+pres.od.scatter <- ggplot(data = state.pres.2017, 
+                            aes(x = prescribing.rate, y = overdose.rate)) +
+  geom_point(size = 1, color = "black") +
+  geom_smooth(method = lm, se = FALSE, color = "blue") +
+  geom_text_repel(aes(label = label.include), size = 3) +
+  theme_minimal() +
+  labs(title = "Average State Opioid Prescribing Rates\nby Overdose Rates, 2017",
+     x = "Average Prescribing Rate per 100 Persons",
+     y = "Average Overdose Rate per 100,000 Persons") +
+    theme(plot.title = element_text(size = 14, hjust = 0.5, face = "bold"),
+        axis.title = element_text(size = 13),
+        axis.text = element_text(size = 12)) +
+  scale_x_continuous(limits = c(25, 115), breaks = c(40, 60, 80, 100))
+
+pres.od.scatter
+```
+
+## Export scatterplot using ggsave
+```{r}
+
+# Find 75th percentile of overdose rate as cutoff for showing labels
+perc.75 <- quantile(state.pres.2017$overdose.rate, probs = 0.75)
+
+# Create new variable saying if it above or below this value
+state.pres.2017$label.include <- ifelse(state.pres.2017$overdose.rate > perc.75,
+                                        state.pres.2017$state.abbr, "")
+
+# Subset data to just 2017 data
+pres.od.scatter <- ggplot(data = state.pres.2017, 
+                            aes(x = prescribing.rate, y = overdose.rate)) +
+  geom_point(size = 1, color = "black") +
+  geom_smooth(method = lm, se = FALSE, color = "blue") +
+  geom_text_repel(aes(label = label.include), size = 3) +
+  theme_minimal() +
+  labs(title = "Average State Opioid Prescribing Rates\nby Overdose Rates, 2017",
+     x = "Average Prescribing Rate per 100 Persons",
+     y = "Average Overdose Rate per 100,000 Persons") +
+    theme(plot.title = element_text(size = 14, hjust = 0.5, face = "bold"),
+        axis.title = element_text(size = 13),
+        axis.text = element_text(size = 12)) +
+  scale_x_continuous(limits = c(25, 115), breaks = c(40, 60, 80, 100))
+
+pres.od.scatter
+
+# Saving file
+## Setting file name
+ggsave(filename = "~/Documents/R_Class_Meetup/Class5/Results/prescribing_od_scatter.jpeg",
+       # Specifying which R object to export
+       plot = pres.od.scatter,
+       # Specify dimensions
+       width = 7, height = 4.5,
+       # Specify units of the dimensions
+       units = "in",
+       # Specify quality (larger equals larger file size)
+       dpi = 300)
+```
+
+# Class exercise
+* Create a data set finding the mean across states by year and drug type of overdose.rate
+* Create a line graph with state_overdoses_heroin_opioids.csv showing year on the x-axis, the overdose rate on the y-axis, creating a grouping variable by drug variable
+* Save result with ggsave
+
+```{r}
+
+
+
+```
+
+
