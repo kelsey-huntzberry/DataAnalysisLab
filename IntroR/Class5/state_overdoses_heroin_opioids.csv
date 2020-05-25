@@ -1,0 +1,1438 @@
+state,year,overdose.rate,drug,state.abbr,region
+Alabama,2012,0.7,Heroin,AL,South
+Alabama,2013,0.8,Heroin,AL,South
+Alabama,2014,2.5,Heroin,AL,South
+Alabama,2015,2.3,Heroin,AL,South
+Alabama,2016,2.6,Heroin,AL,South
+Alabama,2017,2.6,Heroin,AL,South
+Alaska,2012,3.1,Heroin,AK,West
+Alaska,2013,3.3,Heroin,AK,West
+Alaska,2014,3.4,Heroin,AK,West
+Alaska,2015,5,Heroin,AK,West
+Alaska,2016,6.5,Heroin,AK,West
+Alaska,2017,4.9,Heroin,AK,West
+Arizona,1999,0.5,Heroin,AZ,West
+Arizona,2001,0.4,Heroin,AZ,West
+Arizona,2002,0.4,Heroin,AZ,West
+Arizona,2003,1.2,Heroin,AZ,West
+Arizona,2004,0.7,Heroin,AZ,West
+Arizona,2005,0.5,Heroin,AZ,West
+Arizona,2006,0.8,Heroin,AZ,West
+Arizona,2007,0.8,Heroin,AZ,West
+Arizona,2008,1,Heroin,AZ,West
+Arizona,2009,1.3,Heroin,AZ,West
+Arizona,2010,1.4,Heroin,AZ,West
+Arizona,2011,1.8,Heroin,AZ,West
+Arizona,2012,1.5,Heroin,AZ,West
+Arizona,2013,2.2,Heroin,AZ,West
+Arizona,2014,2.9,Heroin,AZ,West
+Arizona,2015,3.6,Heroin,AZ,West
+Arizona,2016,4.3,Heroin,AZ,West
+Arizona,2017,4.7,Heroin,AZ,West
+California,1999,1.4,Heroin,CA,West
+California,2000,1,Heroin,CA,West
+California,2001,0.6,Heroin,CA,West
+California,2002,1,Heroin,CA,West
+California,2003,1,Heroin,CA,West
+California,2004,0.8,Heroin,CA,West
+California,2005,0.7,Heroin,CA,West
+California,2006,0.7,Heroin,CA,West
+California,2007,0.8,Heroin,CA,West
+California,2008,0.9,Heroin,CA,West
+California,2009,0.9,Heroin,CA,West
+California,2010,0.9,Heroin,CA,West
+California,2011,1,Heroin,CA,West
+California,2012,0.9,Heroin,CA,West
+California,2013,1.2,Heroin,CA,West
+California,2014,1.4,Heroin,CA,West
+California,2015,1.5,Heroin,CA,West
+California,2016,1.5,Heroin,CA,West
+California,2017,1.8,Heroin,CA,West
+Colorado,1999,1,Heroin,CO,West
+Colorado,2000,0.9,Heroin,CO,West
+Colorado,2001,0.5,Heroin,CO,West
+Colorado,2002,0.6,Heroin,CO,West
+Colorado,2004,0.4,Heroin,CO,West
+Colorado,2005,0.8,Heroin,CO,West
+Colorado,2006,0.8,Heroin,CO,West
+Colorado,2007,0.8,Heroin,CO,West
+Colorado,2008,1,Heroin,CO,West
+Colorado,2009,1.4,Heroin,CO,West
+Colorado,2010,0.9,Heroin,CO,West
+Colorado,2011,1.5,Heroin,CO,West
+Colorado,2012,1.7,Heroin,CO,West
+Colorado,2013,2.3,Heroin,CO,West
+Colorado,2014,2.9,Heroin,CO,West
+Colorado,2015,2.9,Heroin,CO,West
+Colorado,2016,4.1,Heroin,CO,West
+Colorado,2017,3.9,Heroin,CO,West
+Connecticut,1999,2.8,Heroin,CT,Northeast
+Connecticut,2000,3.2,Heroin,CT,Northeast
+Connecticut,2001,2.7,Heroin,CT,Northeast
+Connecticut,2002,2.5,Heroin,CT,Northeast
+Connecticut,2003,3.1,Heroin,CT,Northeast
+Connecticut,2004,2.6,Heroin,CT,Northeast
+Connecticut,2005,2.1,Heroin,CT,Northeast
+Connecticut,2006,2.4,Heroin,CT,Northeast
+Connecticut,2007,3.3,Heroin,CT,Northeast
+Connecticut,2008,3.1,Heroin,CT,Northeast
+Connecticut,2009,2.8,Heroin,CT,Northeast
+Connecticut,2010,2.1,Heroin,CT,Northeast
+Connecticut,2011,2.4,Heroin,CT,Northeast
+Connecticut,2012,2.7,Heroin,CT,Northeast
+Connecticut,2013,6.3,Heroin,CT,Northeast
+Connecticut,2014,8.3,Heroin,CT,Northeast
+Connecticut,2015,10.8,Heroin,CT,Northeast
+Connecticut,2016,12.5,Heroin,CT,Northeast
+Connecticut,2017,11.8,Heroin,CT,Northeast
+Delaware,2012,2.2,Heroin,DE,South
+Delaware,2013,4.2,Heroin,DE,South
+Delaware,2014,5.7,Heroin,DE,South
+Delaware,2015,6.8,Heroin,DE,South
+Delaware,2016,5.9,Heroin,DE,South
+Delaware,2017,12.6,Heroin,DE,South
+District of Columbia,2011,3.7,Heroin,NA,NA
+District of Columbia,2012,4,Heroin,NA,NA
+District of Columbia,2013,5.4,Heroin,NA,NA
+District of Columbia,2014,5.6,Heroin,NA,NA
+District of Columbia,2015,10,Heroin,NA,NA
+District of Columbia,2016,17.9,Heroin,NA,NA
+District of Columbia,2017,18.3,Heroin,NA,NA
+Florida,1999,0.8,Heroin,FL,South
+Florida,2000,1,Heroin,FL,South
+Florida,2001,1.2,Heroin,FL,South
+Florida,2002,1.2,Heroin,FL,South
+Florida,2003,1.2,Heroin,FL,South
+Florida,2004,0.8,Heroin,FL,South
+Florida,2005,0.6,Heroin,FL,South
+Florida,2006,0.5,Heroin,FL,South
+Florida,2007,0.4,Heroin,FL,South
+Florida,2008,0.6,Heroin,FL,South
+Florida,2009,0.5,Heroin,FL,South
+Florida,2010,0.3,Heroin,FL,South
+Florida,2011,0.3,Heroin,FL,South
+Florida,2012,0.5,Heroin,FL,South
+Florida,2013,0.9,Heroin,FL,South
+Florida,2014,1.7,Heroin,FL,South
+Florida,2015,2.8,Heroin,FL,South
+Florida,2016,3.2,Heroin,FL,South
+Florida,2017,3.3,Heroin,FL,South
+Georgia,2008,0.2,Heroin,GA,South
+Georgia,2009,0.2,Heroin,GA,South
+Georgia,2011,0.3,Heroin,GA,South
+Georgia,2012,0.4,Heroin,GA,South
+Georgia,2013,0.7,Heroin,GA,South
+Georgia,2014,1.5,Heroin,GA,South
+Georgia,2015,2.2,Heroin,GA,South
+Georgia,2016,2.2,Heroin,GA,South
+Georgia,2017,2.5,Heroin,GA,South
+Hawaii,2016,1.4,Heroin,HI,West
+Idaho,2016,1.4,Heroin,ID,West
+Idaho,2017,1.3,Heroin,ID,West
+Illinois,1999,0.2,Heroin,IL,Midwest
+Illinois,2000,0.3,Heroin,IL,Midwest
+Illinois,2001,0.3,Heroin,IL,Midwest
+Illinois,2002,0.4,Heroin,IL,Midwest
+Illinois,2004,0.3,Heroin,IL,Midwest
+Illinois,2005,0.4,Heroin,IL,Midwest
+Illinois,2006,0.5,Heroin,IL,Midwest
+Illinois,2007,0.5,Heroin,IL,Midwest
+Illinois,2008,0.8,Heroin,IL,Midwest
+Illinois,2009,0.9,Heroin,IL,Midwest
+Illinois,2010,1.1,Heroin,IL,Midwest
+Illinois,2011,1.3,Heroin,IL,Midwest
+Illinois,2012,2,Heroin,IL,Midwest
+Illinois,2013,4.5,Heroin,IL,Midwest
+Illinois,2014,5.4,Heroin,IL,Midwest
+Illinois,2015,6.5,Heroin,IL,Midwest
+Illinois,2016,8,Heroin,IL,Midwest
+Illinois,2017,9.2,Heroin,IL,Midwest
+Indiana,2008,0.8,Heroin,IN,Midwest
+Indiana,2009,1,Heroin,IN,Midwest
+Indiana,2010,0.8,Heroin,IN,Midwest
+Indiana,2011,1,Heroin,IN,Midwest
+Indiana,2012,1.7,Heroin,IN,Midwest
+Indiana,2013,2.4,Heroin,IN,Midwest
+Indiana,2014,2.6,Heroin,IN,Midwest
+Indiana,2015,3.6,Heroin,IN,Midwest
+Indiana,2016,4.4,Heroin,IN,Midwest
+Indiana,2017,4.9,Heroin,IN,Midwest
+Iowa,2013,1,Heroin,IA,Midwest
+Iowa,2014,1.2,Heroin,IA,Midwest
+Iowa,2015,1.4,Heroin,IA,Midwest
+Iowa,2016,1.5,Heroin,IA,Midwest
+Iowa,2017,1.9,Heroin,IA,Midwest
+Kansas,2015,0.7,Heroin,KS,Midwest
+Kansas,2016,1.1,Heroin,KS,Midwest
+Kansas,2017,0.8,Heroin,KS,Midwest
+Kentucky,2009,0.5,Heroin,KY,South
+Kentucky,2010,0.9,Heroin,KY,South
+Kentucky,2011,1.2,Heroin,KY,South
+Kentucky,2012,3.2,Heroin,KY,South
+Kentucky,2013,4.8,Heroin,KY,South
+Kentucky,2014,5.1,Heroin,KY,South
+Kentucky,2015,7,Heroin,KY,South
+Kentucky,2016,7,Heroin,KY,South
+Kentucky,2017,6,Heroin,KY,South
+Louisiana,2012,1.1,Heroin,LA,South
+Louisiana,2013,2.6,Heroin,LA,South
+Louisiana,2014,2.3,Heroin,LA,South
+Louisiana,2015,2.7,Heroin,LA,South
+Louisiana,2016,3.1,Heroin,LA,South
+Louisiana,2017,3.4,Heroin,LA,South
+Maine,2014,2.9,Heroin,ME,Northeast
+Maine,2015,3.8,Heroin,ME,Northeast
+Maine,2016,4.1,Heroin,ME,Northeast
+Maine,2017,5.5,Heroin,ME,Northeast
+Maryland,2002,0.5,Heroin,MD,South
+Maryland,2003,0.5,Heroin,MD,South
+Maryland,2004,1.3,Heroin,MD,South
+Maryland,2005,1.4,Heroin,MD,South
+Maryland,2006,2,Heroin,MD,South
+Maryland,2007,2.3,Heroin,MD,South
+Maryland,2008,1.8,Heroin,MD,South
+Maryland,2009,2.7,Heroin,MD,South
+Maryland,2010,1.6,Heroin,MD,South
+Maryland,2011,1.7,Heroin,MD,South
+Maryland,2012,2.9,Heroin,MD,South
+Maryland,2013,3.6,Heroin,MD,South
+Maryland,2014,5.2,Heroin,MD,South
+Maryland,2015,6.7,Heroin,MD,South
+Maryland,2016,10.8,Heroin,MD,South
+Maryland,2017,8.6,Heroin,MD,South
+Massachusetts,2003,0.3,Heroin,MA,Northeast
+Massachusetts,2006,0.6,Heroin,MA,Northeast
+Massachusetts,2007,1,Heroin,MA,Northeast
+Massachusetts,2008,0.9,Heroin,MA,Northeast
+Massachusetts,2009,0.9,Heroin,MA,Northeast
+Massachusetts,2010,1,Heroin,MA,Northeast
+Massachusetts,2011,2.2,Heroin,MA,Northeast
+Massachusetts,2012,3.7,Heroin,MA,Northeast
+Massachusetts,2013,4.3,Heroin,MA,Northeast
+Massachusetts,2014,6.9,Heroin,MA,Northeast
+Massachusetts,2015,9.3,Heroin,MA,Northeast
+Massachusetts,2016,9.2,Heroin,MA,Northeast
+Massachusetts,2017,6.8,Heroin,MA,Northeast
+Michigan,1999,0.4,Heroin,MI,Midwest
+Michigan,2000,0.9,Heroin,MI,Midwest
+Michigan,2001,0.8,Heroin,MI,Midwest
+Michigan,2002,0.6,Heroin,MI,Midwest
+Michigan,2003,0.7,Heroin,MI,Midwest
+Michigan,2004,0.9,Heroin,MI,Midwest
+Michigan,2005,1.5,Heroin,MI,Midwest
+Michigan,2006,1.5,Heroin,MI,Midwest
+Michigan,2007,1.1,Heroin,MI,Midwest
+Michigan,2008,2.1,Heroin,MI,Midwest
+Michigan,2009,2.5,Heroin,MI,Midwest
+Michigan,2010,2.1,Heroin,MI,Midwest
+Michigan,2011,2.7,Heroin,MI,Midwest
+Michigan,2012,2.6,Heroin,MI,Midwest
+Michigan,2013,4.2,Heroin,MI,Midwest
+Michigan,2014,5.3,Heroin,MI,Midwest
+Michigan,2015,6.5,Heroin,MI,Midwest
+Michigan,2016,7.3,Heroin,MI,Midwest
+Michigan,2017,7.8,Heroin,MI,Midwest
+Minnesota,2011,0.8,Heroin,MN,Midwest
+Minnesota,2012,0.8,Heroin,MN,Midwest
+Minnesota,2013,1.7,Heroin,MN,Midwest
+Minnesota,2014,1.8,Heroin,MN,Midwest
+Minnesota,2015,2.1,Heroin,MN,Midwest
+Minnesota,2016,2.7,Heroin,MN,Midwest
+Minnesota,2017,2,Heroin,MN,Midwest
+Mississippi,2014,0.8,Heroin,MS,South
+Mississippi,2015,1.3,Heroin,MS,South
+Mississippi,2016,1.1,Heroin,MS,South
+Mississippi,2017,1.1,Heroin,MS,South
+Missouri,1999,0.9,Heroin,MO,Midwest
+Missouri,2000,0.9,Heroin,MO,Midwest
+Missouri,2001,0.4,Heroin,MO,Midwest
+Missouri,2002,0.9,Heroin,MO,Midwest
+Missouri,2003,0.7,Heroin,MO,Midwest
+Missouri,2004,1,Heroin,MO,Midwest
+Missouri,2005,0.9,Heroin,MO,Midwest
+Missouri,2006,1,Heroin,MO,Midwest
+Missouri,2007,1.1,Heroin,MO,Midwest
+Missouri,2008,2,Heroin,MO,Midwest
+Missouri,2009,2.7,Heroin,MO,Midwest
+Missouri,2010,3,Heroin,MO,Midwest
+Missouri,2011,4,Heroin,MO,Midwest
+Missouri,2012,3.4,Heroin,MO,Midwest
+Missouri,2013,4.2,Heroin,MO,Midwest
+Missouri,2014,5.4,Heroin,MO,Midwest
+Missouri,2015,4.8,Heroin,MO,Midwest
+Missouri,2016,6.1,Heroin,MO,Midwest
+Missouri,2017,4.8,Heroin,MO,Midwest
+Nevada,1999,2.2,Heroin,NV,West
+Nevada,2000,1.8,Heroin,NV,West
+Nevada,2001,1.1,Heroin,NV,West
+Nevada,2002,1.7,Heroin,NV,West
+Nevada,2003,1.6,Heroin,NV,West
+Nevada,2004,1.2,Heroin,NV,West
+Nevada,2005,1.9,Heroin,NV,West
+Nevada,2006,1.3,Heroin,NV,West
+Nevada,2007,1.5,Heroin,NV,West
+Nevada,2008,1.2,Heroin,NV,West
+Nevada,2009,0.8,Heroin,NV,West
+Nevada,2011,1.3,Heroin,NV,West
+Nevada,2012,1.6,Heroin,NV,West
+Nevada,2013,1.6,Heroin,NV,West
+Nevada,2014,2.1,Heroin,NV,West
+Nevada,2015,2.8,Heroin,NV,West
+Nevada,2016,2.9,Heroin,NV,West
+Nevada,2017,3.1,Heroin,NV,West
+New Hampshire,2009,1.7,Heroin,NH,Northeast
+New Hampshire,2011,3.1,Heroin,NH,Northeast
+New Hampshire,2012,3,Heroin,NH,Northeast
+New Hampshire,2013,5.1,Heroin,NH,Northeast
+New Hampshire,2014,7.4,Heroin,NH,Northeast
+New Hampshire,2015,5.8,Heroin,NH,Northeast
+New Hampshire,2016,2.5,Heroin,NH,Northeast
+New Hampshire,2017,2.1,Heroin,NH,Northeast
+New Jersey,1999,2.4,Heroin,NJ,Northeast
+New Jersey,2000,2.4,Heroin,NJ,Northeast
+New Jersey,2001,2.2,Heroin,NJ,Northeast
+New Jersey,2002,2.7,Heroin,NJ,Northeast
+New Jersey,2003,2.5,Heroin,NJ,Northeast
+New Jersey,2004,1.3,Heroin,NJ,Northeast
+New Jersey,2005,1.9,Heroin,NJ,Northeast
+New Jersey,2006,1.2,Heroin,NJ,Northeast
+New Jersey,2007,1.2,Heroin,NJ,Northeast
+New Jersey,2008,1.3,Heroin,NJ,Northeast
+New Jersey,2010,1,Heroin,NJ,Northeast
+New Jersey,2011,1.5,Heroin,NJ,Northeast
+New Jersey,2012,3.4,Heroin,NJ,Northeast
+New Jersey,2013,4.3,Heroin,NJ,Northeast
+New Jersey,2014,4.7,Heroin,NJ,Northeast
+New Jersey,2015,5.6,Heroin,NJ,Northeast
+New Jersey,2016,9.5,Heroin,NJ,Northeast
+New Jersey,2017,12,Heroin,NJ,Northeast
+New Mexico,1999,1.2,Heroin,NM,West
+New Mexico,2000,2.1,Heroin,NM,West
+New Mexico,2001,1.2,Heroin,NM,West
+New Mexico,2002,1.2,Heroin,NM,West
+New Mexico,2003,1.3,Heroin,NM,West
+New Mexico,2004,1.7,Heroin,NM,West
+New Mexico,2005,2.2,Heroin,NM,West
+New Mexico,2007,1.4,Heroin,NM,West
+New Mexico,2008,3.2,Heroin,NM,West
+New Mexico,2009,2.4,Heroin,NM,West
+New Mexico,2010,1,Heroin,NM,West
+New Mexico,2011,3.3,Heroin,NM,West
+New Mexico,2012,5,Heroin,NM,West
+New Mexico,2013,4.2,Heroin,NM,West
+New Mexico,2014,6.7,Heroin,NM,West
+New Mexico,2015,7.4,Heroin,NM,West
+New Mexico,2016,7.6,Heroin,NM,West
+New Mexico,2017,6.7,Heroin,NM,West
+New York,1999,0.2,Heroin,NY,Northeast
+New York,2000,0.1,Heroin,NY,Northeast
+New York,2001,0.3,Heroin,NY,Northeast
+New York,2002,0.3,Heroin,NY,Northeast
+New York,2003,0.3,Heroin,NY,Northeast
+New York,2004,0.2,Heroin,NY,Northeast
+New York,2005,0.2,Heroin,NY,Northeast
+New York,2006,0.6,Heroin,NY,Northeast
+New York,2007,1,Heroin,NY,Northeast
+New York,2008,1.1,Heroin,NY,Northeast
+New York,2009,1.3,Heroin,NY,Northeast
+New York,2010,1,Heroin,NY,Northeast
+New York,2011,1.7,Heroin,NY,Northeast
+New York,2012,2.6,Heroin,NY,Northeast
+New York,2013,3.4,Heroin,NY,Northeast
+New York,2014,4.2,Heroin,NY,Northeast
+New York,2015,5.3,Heroin,NY,Northeast
+New York,2016,6.6,Heroin,NY,Northeast
+New York,2017,6.8,Heroin,NY,Northeast
+North Carolina,1999,0.5,Heroin,NC,South
+North Carolina,2000,0.5,Heroin,NC,South
+North Carolina,2001,0.6,Heroin,NC,South
+North Carolina,2002,0.6,Heroin,NC,South
+North Carolina,2003,0.6,Heroin,NC,South
+North Carolina,2004,0.6,Heroin,NC,South
+North Carolina,2005,0.7,Heroin,NC,South
+North Carolina,2006,0.6,Heroin,NC,South
+North Carolina,2007,0.5,Heroin,NC,South
+North Carolina,2008,0.7,Heroin,NC,South
+North Carolina,2009,0.8,Heroin,NC,South
+North Carolina,2010,0.4,Heroin,NC,South
+North Carolina,2011,0.8,Heroin,NC,South
+North Carolina,2012,1.5,Heroin,NC,South
+North Carolina,2013,1.9,Heroin,NC,South
+North Carolina,2014,2.7,Heroin,NC,South
+North Carolina,2015,3.9,Heroin,NC,South
+North Carolina,2016,5.4,Heroin,NC,South
+North Carolina,2017,5.2,Heroin,NC,South
+Ohio,1999,0.5,Heroin,OH,Midwest
+Ohio,2000,0.7,Heroin,OH,Midwest
+Ohio,2001,0.7,Heroin,OH,Midwest
+Ohio,2002,1,Heroin,OH,Midwest
+Ohio,2003,0.8,Heroin,OH,Midwest
+Ohio,2004,1.1,Heroin,OH,Midwest
+Ohio,2005,1.2,Heroin,OH,Midwest
+Ohio,2006,1.1,Heroin,OH,Midwest
+Ohio,2007,1.3,Heroin,OH,Midwest
+Ohio,2008,2,Heroin,OH,Midwest
+Ohio,2009,1.8,Heroin,OH,Midwest
+Ohio,2010,3.1,Heroin,OH,Midwest
+Ohio,2011,3.8,Heroin,OH,Midwest
+Ohio,2012,6,Heroin,OH,Midwest
+Ohio,2013,8.5,Heroin,OH,Midwest
+Ohio,2014,10.4,Heroin,OH,Midwest
+Ohio,2015,12.4,Heroin,OH,Midwest
+Ohio,2016,12.6,Heroin,OH,Midwest
+Ohio,2017,8.5,Heroin,OH,Midwest
+Oklahoma,2012,0.7,Heroin,OK,South
+Oklahoma,2013,0.6,Heroin,OK,South
+Oklahoma,2014,0.7,Heroin,OK,South
+Oklahoma,2015,0.9,Heroin,OK,South
+Oklahoma,2016,1.4,Heroin,OK,South
+Oklahoma,2017,1.5,Heroin,OK,South
+Oregon,1999,1.9,Heroin,OR,West
+Oregon,2000,0.8,Heroin,OR,West
+Oregon,2001,1,Heroin,OR,West
+Oregon,2002,1.1,Heroin,OR,West
+Oregon,2003,0.9,Heroin,OR,West
+Oregon,2004,1.3,Heroin,OR,West
+Oregon,2005,1.1,Heroin,OR,West
+Oregon,2006,1.6,Heroin,OR,West
+Oregon,2007,3,Heroin,OR,West
+Oregon,2008,2.4,Heroin,OR,West
+Oregon,2009,3.1,Heroin,OR,West
+Oregon,2010,2.1,Heroin,OR,West
+Oregon,2011,3.4,Heroin,OR,West
+Oregon,2012,3.2,Heroin,OR,West
+Oregon,2013,2.5,Heroin,OR,West
+Oregon,2014,3,Heroin,OR,West
+Oregon,2015,2.5,Heroin,OR,West
+Oregon,2016,2.7,Heroin,OR,West
+Oregon,2017,2.9,Heroin,OR,West
+Pennsylvania,1999,1.4,Heroin,PA,Northeast
+Pennsylvania,2000,1.1,Heroin,PA,Northeast
+Pennsylvania,2001,1,Heroin,PA,Northeast
+Pennsylvania,2002,1.1,Heroin,PA,Northeast
+Pennsylvania,2003,1.3,Heroin,PA,Northeast
+Pennsylvania,2004,1.1,Heroin,PA,Northeast
+Pennsylvania,2005,1.1,Heroin,PA,Northeast
+Pennsylvania,2006,0.7,Heroin,PA,Northeast
+Pennsylvania,2007,0.7,Heroin,PA,Northeast
+Pennsylvania,2008,1.2,Heroin,PA,Northeast
+Pennsylvania,2009,1.3,Heroin,PA,Northeast
+Pennsylvania,2010,1,Heroin,PA,Northeast
+Pennsylvania,2011,1.8,Heroin,PA,Northeast
+Pennsylvania,2012,2.5,Heroin,PA,Northeast
+Pennsylvania,2013,3.1,Heroin,PA,Northeast
+Pennsylvania,2014,3.9,Heroin,PA,Northeast
+Pennsylvania,2015,5.1,Heroin,PA,Northeast
+Pennsylvania,2016,7.1,Heroin,PA,Northeast
+Pennsylvania,2017,6.3,Heroin,PA,Northeast
+Rhode Island,2012,2.9,Heroin,RI,Northeast
+Rhode Island,2013,6.2,Heroin,RI,Northeast
+Rhode Island,2014,6.3,Heroin,RI,Northeast
+Rhode Island,2015,4.3,Heroin,RI,Northeast
+Rhode Island,2016,2.4,Heroin,RI,Northeast
+South Carolina,2013,0.7,Heroin,SC,South
+South Carolina,2014,1.3,Heroin,SC,South
+South Carolina,2015,2,Heroin,SC,South
+South Carolina,2016,2.3,Heroin,SC,South
+South Carolina,2017,3,Heroin,SC,South
+Tennessee,2009,0.3,Heroin,TN,South
+Tennessee,2012,0.8,Heroin,TN,South
+Tennessee,2013,1,Heroin,TN,South
+Tennessee,2014,2.2,Heroin,TN,South
+Tennessee,2015,3.1,Heroin,TN,South
+Tennessee,2016,3.9,Heroin,TN,South
+Tennessee,2017,4.6,Heroin,TN,South
+Texas,1999,0.5,Heroin,TX,South
+Texas,2000,0.5,Heroin,TX,South
+Texas,2001,0.8,Heroin,TX,South
+Texas,2002,0.8,Heroin,TX,South
+Texas,2003,0.8,Heroin,TX,South
+Texas,2004,0.9,Heroin,TX,South
+Texas,2005,0.9,Heroin,TX,South
+Texas,2006,0.9,Heroin,TX,South
+Texas,2007,0.9,Heroin,TX,South
+Texas,2008,1,Heroin,TX,South
+Texas,2009,1.2,Heroin,TX,South
+Texas,2010,1,Heroin,TX,South
+Texas,2011,1.4,Heroin,TX,South
+Texas,2012,1.4,Heroin,TX,South
+Texas,2013,1.4,Heroin,TX,South
+Texas,2014,1.6,Heroin,TX,South
+Texas,2015,1.9,Heroin,TX,South
+Texas,2016,1.9,Heroin,TX,South
+Texas,2017,2,Heroin,TX,South
+Utah,1999,2.5,Heroin,UT,West
+Utah,2000,2,Heroin,UT,West
+Utah,2001,1.7,Heroin,UT,West
+Utah,2002,1.1,Heroin,UT,West
+Utah,2003,1.3,Heroin,UT,West
+Utah,2004,0.9,Heroin,UT,West
+Utah,2005,1.7,Heroin,UT,West
+Utah,2006,1.8,Heroin,UT,West
+Utah,2007,1.9,Heroin,UT,West
+Utah,2008,2.5,Heroin,UT,West
+Utah,2009,1.9,Heroin,UT,West
+Utah,2010,1.8,Heroin,UT,West
+Utah,2011,2.6,Heroin,UT,West
+Utah,2012,2.8,Heroin,UT,West
+Utah,2013,4.1,Heroin,UT,West
+Utah,2014,3.6,Heroin,UT,West
+Utah,2015,4.1,Heroin,UT,West
+Utah,2016,5.3,Heroin,UT,West
+Utah,2017,4.7,Heroin,UT,West
+Vermont,2013,3.2,Heroin,VT,Northeast
+Vermont,2014,5.3,Heroin,VT,Northeast
+Vermont,2015,5.3,Heroin,VT,Northeast
+Vermont,2016,7.2,Heroin,VT,Northeast
+Vermont,2017,6.6,Heroin,VT,Northeast
+Virginia,1999,0.9,Heroin,VA,South
+Virginia,2000,0.9,Heroin,VA,South
+Virginia,2001,1.2,Heroin,VA,South
+Virginia,2002,1.2,Heroin,VA,South
+Virginia,2003,1.2,Heroin,VA,South
+Virginia,2004,0.9,Heroin,VA,South
+Virginia,2005,0.8,Heroin,VA,South
+Virginia,2006,0.9,Heroin,VA,South
+Virginia,2007,1.2,Heroin,VA,South
+Virginia,2008,1.1,Heroin,VA,South
+Virginia,2009,1.3,Heroin,VA,South
+Virginia,2010,0.6,Heroin,VA,South
+Virginia,2011,1.2,Heroin,VA,South
+Virginia,2012,1.4,Heroin,VA,South
+Virginia,2013,2.5,Heroin,VA,South
+Virginia,2014,3,Heroin,VA,South
+Virginia,2015,4.2,Heroin,VA,South
+Virginia,2016,5.3,Heroin,VA,South
+Virginia,2017,6.5,Heroin,VA,South
+Washington,1999,0.9,Heroin,WA,West
+Washington,2000,1,Heroin,WA,West
+Washington,2001,0.8,Heroin,WA,West
+Washington,2002,1.1,Heroin,WA,West
+Washington,2003,1,Heroin,WA,West
+Washington,2004,0.9,Heroin,WA,West
+Washington,2005,0.8,Heroin,WA,West
+Washington,2006,0.8,Heroin,WA,West
+Washington,2007,1.1,Heroin,WA,West
+Washington,2008,1,Heroin,WA,West
+Washington,2009,1,Heroin,WA,West
+Washington,2010,0.9,Heroin,WA,West
+Washington,2011,2.2,Heroin,WA,West
+Washington,2012,2.5,Heroin,WA,West
+Washington,2013,2.9,Heroin,WA,West
+Washington,2014,4.1,Heroin,WA,West
+Washington,2015,4.2,Heroin,WA,West
+Washington,2016,3.8,Heroin,WA,West
+Washington,2017,4.1,Heroin,WA,West
+West Virginia,2007,1.1,Heroin,WV,South
+West Virginia,2008,1.9,Heroin,WV,South
+West Virginia,2010,1.5,Heroin,WV,South
+West Virginia,2011,1.8,Heroin,WV,South
+West Virginia,2012,3.4,Heroin,WV,South
+West Virginia,2013,7.8,Heroin,WV,South
+West Virginia,2014,8.8,Heroin,WV,South
+West Virginia,2015,10.5,Heroin,WV,South
+West Virginia,2016,12.7,Heroin,WV,South
+West Virginia,2017,13.4,Heroin,WV,South
+Wisconsin,2000,0.5,Heroin,WI,Midwest
+Wisconsin,2001,0.4,Heroin,WI,Midwest
+Wisconsin,2002,0.5,Heroin,WI,Midwest
+Wisconsin,2003,0.5,Heroin,WI,Midwest
+Wisconsin,2004,0.4,Heroin,WI,Midwest
+Wisconsin,2005,0.5,Heroin,WI,Midwest
+Wisconsin,2006,0.5,Heroin,WI,Midwest
+Wisconsin,2007,0.6,Heroin,WI,Midwest
+Wisconsin,2008,1.2,Heroin,WI,Midwest
+Wisconsin,2009,1.3,Heroin,WI,Midwest
+Wisconsin,2010,1.6,Heroin,WI,Midwest
+Wisconsin,2011,2.3,Heroin,WI,Midwest
+Wisconsin,2012,3.2,Heroin,WI,Midwest
+Wisconsin,2013,4,Heroin,WI,Midwest
+Wisconsin,2014,4.6,Heroin,WI,Midwest
+Wisconsin,2015,5,Heroin,WI,Midwest
+Wisconsin,2016,6.7,Heroin,WI,Midwest
+Wisconsin,2017,7.1,Heroin,WI,Midwest
+Alabama,2009,3.7,Opioid Analgesic,AL,South
+Alabama,2011,3,Opioid Analgesic,AL,South
+Alabama,2012,2.3,Opioid Analgesic,AL,South
+Alabama,2013,2.4,Opioid Analgesic,AL,South
+Alabama,2014,3.3,Opioid Analgesic,AL,South
+Alabama,2015,3.4,Opioid Analgesic,AL,South
+Alabama,2016,5,Opioid Analgesic,AL,South
+Alabama,2017,6.6,Opioid Analgesic,AL,South
+Alaska,2011,6.8,Opioid Analgesic,AK,West
+Alaska,2012,7,Opioid Analgesic,AK,West
+Alaska,2013,6.7,Opioid Analgesic,AK,West
+Alaska,2014,6.7,Opioid Analgesic,AK,West
+Alaska,2015,8.4,Opioid Analgesic,AK,West
+Alaska,2016,6.7,Opioid Analgesic,AK,West
+Alaska,2017,9.2,Opioid Analgesic,AK,West
+Arizona,1999,1.8,Opioid Analgesic,AZ,West
+Arizona,2000,1.9,Opioid Analgesic,AZ,West
+Arizona,2001,2,Opioid Analgesic,AZ,West
+Arizona,2002,2.9,Opioid Analgesic,AZ,West
+Arizona,2003,3.4,Opioid Analgesic,AZ,West
+Arizona,2004,3.4,Opioid Analgesic,AZ,West
+Arizona,2005,4.1,Opioid Analgesic,AZ,West
+Arizona,2006,4.2,Opioid Analgesic,AZ,West
+Arizona,2007,4.2,Opioid Analgesic,AZ,West
+Arizona,2008,5,Opioid Analgesic,AZ,West
+Arizona,2009,5.7,Opioid Analgesic,AZ,West
+Arizona,2010,6.1,Opioid Analgesic,AZ,West
+Arizona,2011,5,Opioid Analgesic,AZ,West
+Arizona,2012,5.1,Opioid Analgesic,AZ,West
+Arizona,2013,4.5,Opioid Analgesic,AZ,West
+Arizona,2014,4.7,Opioid Analgesic,AZ,West
+Arizona,2015,5.2,Opioid Analgesic,AZ,West
+Arizona,2016,6.1,Opioid Analgesic,AZ,West
+Arizona,2017,7.9,Opioid Analgesic,AZ,West
+Arkansas,2016,4.6,Opioid Analgesic,AR,South
+Arkansas,2017,4.9,Opioid Analgesic,AR,South
+California,1999,2.9,Opioid Analgesic,CA,West
+California,2000,1.9,Opioid Analgesic,CA,West
+California,2001,1,Opioid Analgesic,CA,West
+California,2002,2.8,Opioid Analgesic,CA,West
+California,2003,2.5,Opioid Analgesic,CA,West
+California,2004,2.5,Opioid Analgesic,CA,West
+California,2005,2.6,Opioid Analgesic,CA,West
+California,2006,2.8,Opioid Analgesic,CA,West
+California,2007,3.1,Opioid Analgesic,CA,West
+California,2008,3.4,Opioid Analgesic,CA,West
+California,2009,4,Opioid Analgesic,CA,West
+California,2010,3.7,Opioid Analgesic,CA,West
+California,2011,3.6,Opioid Analgesic,CA,West
+California,2012,3,Opioid Analgesic,CA,West
+California,2013,3.2,Opioid Analgesic,CA,West
+California,2014,3.2,Opioid Analgesic,CA,West
+California,2015,3.2,Opioid Analgesic,CA,West
+California,2016,3.2,Opioid Analgesic,CA,West
+California,2017,3.6,Opioid Analgesic,CA,West
+Colorado,1999,1.3,Opioid Analgesic,CO,West
+Colorado,2000,1.7,Opioid Analgesic,CO,West
+Colorado,2001,2.1,Opioid Analgesic,CO,West
+Colorado,2002,2.3,Opioid Analgesic,CO,West
+Colorado,2003,2.1,Opioid Analgesic,CO,West
+Colorado,2004,2.3,Opioid Analgesic,CO,West
+Colorado,2005,3.1,Opioid Analgesic,CO,West
+Colorado,2006,3.6,Opioid Analgesic,CO,West
+Colorado,2007,4.9,Opioid Analgesic,CO,West
+Colorado,2008,4.4,Opioid Analgesic,CO,West
+Colorado,2009,5,Opioid Analgesic,CO,West
+Colorado,2010,3.9,Opioid Analgesic,CO,West
+Colorado,2011,5.4,Opioid Analgesic,CO,West
+Colorado,2012,4.9,Opioid Analgesic,CO,West
+Colorado,2013,4.7,Opioid Analgesic,CO,West
+Colorado,2014,5.4,Opioid Analgesic,CO,West
+Colorado,2015,5.1,Opioid Analgesic,CO,West
+Colorado,2016,4.8,Opioid Analgesic,CO,West
+Colorado,2017,5.6,Opioid Analgesic,CO,West
+Connecticut,1999,0.7,Opioid Analgesic,CT,Northeast
+Connecticut,2000,0.7,Opioid Analgesic,CT,Northeast
+Connecticut,2001,0.9,Opioid Analgesic,CT,Northeast
+Connecticut,2002,1.5,Opioid Analgesic,CT,Northeast
+Connecticut,2003,1.2,Opioid Analgesic,CT,Northeast
+Connecticut,2004,2.2,Opioid Analgesic,CT,Northeast
+Connecticut,2005,1.9,Opioid Analgesic,CT,Northeast
+Connecticut,2006,2.8,Opioid Analgesic,CT,Northeast
+Connecticut,2007,2.8,Opioid Analgesic,CT,Northeast
+Connecticut,2008,2.6,Opioid Analgesic,CT,Northeast
+Connecticut,2009,2.4,Opioid Analgesic,CT,Northeast
+Connecticut,2010,2.7,Opioid Analgesic,CT,Northeast
+Connecticut,2011,2.2,Opioid Analgesic,CT,Northeast
+Connecticut,2012,2,Opioid Analgesic,CT,Northeast
+Connecticut,2013,5.6,Opioid Analgesic,CT,Northeast
+Connecticut,2014,6.5,Opioid Analgesic,CT,Northeast
+Connecticut,2015,10.7,Opioid Analgesic,CT,Northeast
+Connecticut,2016,17.6,Opioid Analgesic,CT,Northeast
+Connecticut,2017,22.7,Opioid Analgesic,CT,Northeast
+Delaware,2002,3.2,Opioid Analgesic,DE,South
+Delaware,2010,7.4,Opioid Analgesic,DE,South
+Delaware,2011,8.3,Opioid Analgesic,DE,South
+Delaware,2012,4.8,Opioid Analgesic,DE,South
+Delaware,2013,6.3,Opioid Analgesic,DE,South
+Delaware,2014,7.2,Opioid Analgesic,DE,South
+Delaware,2015,7.8,Opioid Analgesic,DE,South
+Delaware,2016,11.4,Opioid Analgesic,DE,South
+Delaware,2017,22,Opioid Analgesic,DE,South
+District of Columbia,2011,3.4,Opioid Analgesic,NA,NA
+District of Columbia,2014,4.7,Opioid Analgesic,NA,NA
+District of Columbia,2015,7.1,Opioid Analgesic,NA,NA
+District of Columbia,2016,23.8,Opioid Analgesic,NA,NA
+District of Columbia,2017,29.8,Opioid Analgesic,NA,NA
+Florida,1999,1.1,Opioid Analgesic,FL,South
+Florida,2000,1.7,Opioid Analgesic,FL,South
+Florida,2001,3.3,Opioid Analgesic,FL,South
+Florida,2002,3.5,Opioid Analgesic,FL,South
+Florida,2003,4.3,Opioid Analgesic,FL,South
+Florida,2004,5.1,Opioid Analgesic,FL,South
+Florida,2005,4.7,Opioid Analgesic,FL,South
+Florida,2006,5.5,Opioid Analgesic,FL,South
+Florida,2007,6.5,Opioid Analgesic,FL,South
+Florida,2008,6.3,Opioid Analgesic,FL,South
+Florida,2009,7,Opioid Analgesic,FL,South
+Florida,2010,7.6,Opioid Analgesic,FL,South
+Florida,2011,7.1,Opioid Analgesic,FL,South
+Florida,2012,5.6,Opioid Analgesic,FL,South
+Florida,2013,4.9,Opioid Analgesic,FL,South
+Florida,2014,5,Opioid Analgesic,FL,South
+Florida,2015,6.3,Opioid Analgesic,FL,South
+Florida,2016,11.1,Opioid Analgesic,FL,South
+Florida,2017,13.3,Opioid Analgesic,FL,South
+Georgia,2007,3.6,Opioid Analgesic,GA,South
+Georgia,2008,3.5,Opioid Analgesic,GA,South
+Georgia,2009,4.4,Opioid Analgesic,GA,South
+Georgia,2011,4.7,Opioid Analgesic,GA,South
+Georgia,2012,4.4,Opioid Analgesic,GA,South
+Georgia,2013,4.1,Opioid Analgesic,GA,South
+Georgia,2014,5.4,Opioid Analgesic,GA,South
+Georgia,2015,6.4,Opioid Analgesic,GA,South
+Georgia,2016,6.5,Opioid Analgesic,GA,South
+Georgia,2017,7.9,Opioid Analgesic,GA,South
+Hawaii,2013,3.9,Opioid Analgesic,HI,West
+Hawaii,2014,2.7,Opioid Analgesic,HI,West
+Hawaii,2015,2.7,Opioid Analgesic,HI,West
+Hawaii,2016,3.8,Opioid Analgesic,HI,West
+Hawaii,2017,2.5,Opioid Analgesic,HI,West
+Idaho,2014,3.4,Opioid Analgesic,ID,West
+Idaho,2015,3.7,Opioid Analgesic,ID,West
+Idaho,2016,4.8,Opioid Analgesic,ID,West
+Idaho,2017,4,Opioid Analgesic,ID,West
+Illinois,1999,0.6,Opioid Analgesic,IL,Midwest
+Illinois,2000,0.8,Opioid Analgesic,IL,Midwest
+Illinois,2001,1,Opioid Analgesic,IL,Midwest
+Illinois,2002,1.2,Opioid Analgesic,IL,Midwest
+Illinois,2003,1,Opioid Analgesic,IL,Midwest
+Illinois,2004,1.2,Opioid Analgesic,IL,Midwest
+Illinois,2005,1.6,Opioid Analgesic,IL,Midwest
+Illinois,2006,4.2,Opioid Analgesic,IL,Midwest
+Illinois,2007,2.2,Opioid Analgesic,IL,Midwest
+Illinois,2008,2.2,Opioid Analgesic,IL,Midwest
+Illinois,2009,2.5,Opioid Analgesic,IL,Midwest
+Illinois,2010,2.4,Opioid Analgesic,IL,Midwest
+Illinois,2011,2.2,Opioid Analgesic,IL,Midwest
+Illinois,2012,2.4,Opioid Analgesic,IL,Midwest
+Illinois,2013,2.4,Opioid Analgesic,IL,Midwest
+Illinois,2014,3,Opioid Analgesic,IL,Midwest
+Illinois,2015,4.2,Opioid Analgesic,IL,Midwest
+Illinois,2016,9.4,Opioid Analgesic,IL,Midwest
+Illinois,2017,12.3,Opioid Analgesic,IL,Midwest
+Indiana,2005,1.8,Opioid Analgesic,IN,Midwest
+Indiana,2007,2.8,Opioid Analgesic,IN,Midwest
+Indiana,2008,3.1,Opioid Analgesic,IN,Midwest
+Indiana,2009,3.5,Opioid Analgesic,IN,Midwest
+Indiana,2010,3,Opioid Analgesic,IN,Midwest
+Indiana,2011,3.4,Opioid Analgesic,IN,Midwest
+Indiana,2012,2.9,Opioid Analgesic,IN,Midwest
+Indiana,2013,2.4,Opioid Analgesic,IN,Midwest
+Indiana,2014,3.5,Opioid Analgesic,IN,Midwest
+Indiana,2015,4,Opioid Analgesic,IN,Midwest
+Indiana,2016,7.2,Opioid Analgesic,IN,Midwest
+Indiana,2017,13.6,Opioid Analgesic,IN,Midwest
+Iowa,2008,3,Opioid Analgesic,IA,Midwest
+Iowa,2011,3.7,Opioid Analgesic,IA,Midwest
+Iowa,2012,4.2,Opioid Analgesic,IA,Midwest
+Iowa,2013,3.9,Opioid Analgesic,IA,Midwest
+Iowa,2014,3.3,Opioid Analgesic,IA,Midwest
+Iowa,2015,3.4,Opioid Analgesic,IA,Midwest
+Iowa,2016,3.9,Opioid Analgesic,IA,Midwest
+Iowa,2017,4.7,Opioid Analgesic,IA,Midwest
+Kansas,2009,4.1,Opioid Analgesic,KS,Midwest
+Kansas,2012,4.8,Opioid Analgesic,KS,Midwest
+Kansas,2013,4.4,Opioid Analgesic,KS,Midwest
+Kansas,2014,4.5,Opioid Analgesic,KS,Midwest
+Kansas,2015,4,Opioid Analgesic,KS,Midwest
+Kansas,2016,3,Opioid Analgesic,KS,Midwest
+Kansas,2017,3.5,Opioid Analgesic,KS,Midwest
+Kentucky,2008,7.7,Opioid Analgesic,KY,South
+Kentucky,2009,8.5,Opioid Analgesic,KY,South
+Kentucky,2010,11.9,Opioid Analgesic,KY,South
+Kentucky,2011,12.5,Opioid Analgesic,KY,South
+Kentucky,2012,10.7,Opioid Analgesic,KY,South
+Kentucky,2013,9.5,Opioid Analgesic,KY,South
+Kentucky,2014,11.1,Opioid Analgesic,KY,South
+Kentucky,2015,14.2,Opioid Analgesic,KY,South
+Kentucky,2016,17.3,Opioid Analgesic,KY,South
+Kentucky,2017,22.9,Opioid Analgesic,KY,South
+Louisiana,2006,3.7,Opioid Analgesic,LA,South
+Louisiana,2008,2.1,Opioid Analgesic,LA,South
+Louisiana,2009,1.9,Opioid Analgesic,LA,South
+Louisiana,2010,2,Opioid Analgesic,LA,South
+Louisiana,2011,1.6,Opioid Analgesic,LA,South
+Louisiana,2012,2.2,Opioid Analgesic,LA,South
+Louisiana,2013,2.4,Opioid Analgesic,LA,South
+Louisiana,2014,2.6,Opioid Analgesic,LA,South
+Louisiana,2015,3,Opioid Analgesic,LA,South
+Louisiana,2016,3.9,Opioid Analgesic,LA,South
+Louisiana,2017,5.9,Opioid Analgesic,LA,South
+Maine,2012,5.9,Opioid Analgesic,ME,Northeast
+Maine,2013,6.9,Opioid Analgesic,ME,Northeast
+Maine,2014,10.3,Opioid Analgesic,ME,Northeast
+Maine,2015,14.1,Opioid Analgesic,ME,Northeast
+Maine,2016,20.5,Opioid Analgesic,ME,Northeast
+Maine,2017,24.2,Opioid Analgesic,ME,Northeast
+Maryland,2002,1,Opioid Analgesic,MD,South
+Maryland,2003,1.3,Opioid Analgesic,MD,South
+Maryland,2004,2.8,Opioid Analgesic,MD,South
+Maryland,2005,3.9,Opioid Analgesic,MD,South
+Maryland,2006,5.2,Opioid Analgesic,MD,South
+Maryland,2007,5.6,Opioid Analgesic,MD,South
+Maryland,2008,5.5,Opioid Analgesic,MD,South
+Maryland,2009,5.6,Opioid Analgesic,MD,South
+Maryland,2010,6.2,Opioid Analgesic,MD,South
+Maryland,2011,6.7,Opioid Analgesic,MD,South
+Maryland,2012,6.9,Opioid Analgesic,MD,South
+Maryland,2013,7.7,Opioid Analgesic,MD,South
+Maryland,2014,10.2,Opioid Analgesic,MD,South
+Maryland,2015,12,Opioid Analgesic,MD,South
+Maryland,2016,24.7,Opioid Analgesic,MD,South
+Maryland,2017,30,Opioid Analgesic,MD,South
+Massachusetts,1999,0.6,Opioid Analgesic,MA,Northeast
+Massachusetts,2001,1.4,Opioid Analgesic,MA,Northeast
+Massachusetts,2002,1.6,Opioid Analgesic,MA,Northeast
+Massachusetts,2003,1.9,Opioid Analgesic,MA,Northeast
+Massachusetts,2004,2.2,Opioid Analgesic,MA,Northeast
+Massachusetts,2005,3.1,Opioid Analgesic,MA,Northeast
+Massachusetts,2006,5.2,Opioid Analgesic,MA,Northeast
+Massachusetts,2007,4.9,Opioid Analgesic,MA,Northeast
+Massachusetts,2008,3.4,Opioid Analgesic,MA,Northeast
+Massachusetts,2009,4.4,Opioid Analgesic,MA,Northeast
+Massachusetts,2010,4.2,Opioid Analgesic,MA,Northeast
+Massachusetts,2011,3.8,Opioid Analgesic,MA,Northeast
+Massachusetts,2012,3.8,Opioid Analgesic,MA,Northeast
+Massachusetts,2013,4.6,Opioid Analgesic,MA,Northeast
+Massachusetts,2014,9.4,Opioid Analgesic,MA,Northeast
+Massachusetts,2015,16.3,Opioid Analgesic,MA,Northeast
+Massachusetts,2016,25.1,Opioid Analgesic,MA,Northeast
+Massachusetts,2017,25.6,Opioid Analgesic,MA,Northeast
+Michigan,1999,0.5,Opioid Analgesic,MI,Midwest
+Michigan,2000,0.6,Opioid Analgesic,MI,Midwest
+Michigan,2001,0.8,Opioid Analgesic,MI,Midwest
+Michigan,2002,1.3,Opioid Analgesic,MI,Midwest
+Michigan,2003,1.3,Opioid Analgesic,MI,Midwest
+Michigan,2004,2.1,Opioid Analgesic,MI,Midwest
+Michigan,2005,2.9,Opioid Analgesic,MI,Midwest
+Michigan,2006,4.4,Opioid Analgesic,MI,Midwest
+Michigan,2007,3.5,Opioid Analgesic,MI,Midwest
+Michigan,2008,3.7,Opioid Analgesic,MI,Midwest
+Michigan,2009,4,Opioid Analgesic,MI,Midwest
+Michigan,2010,4.1,Opioid Analgesic,MI,Midwest
+Michigan,2011,3.9,Opioid Analgesic,MI,Midwest
+Michigan,2012,3.9,Opioid Analgesic,MI,Midwest
+Michigan,2013,4.4,Opioid Analgesic,MI,Midwest
+Michigan,2014,5.4,Opioid Analgesic,MI,Midwest
+Michigan,2015,8.4,Opioid Analgesic,MI,Midwest
+Michigan,2016,13.4,Opioid Analgesic,MI,Midwest
+Michigan,2017,17,Opioid Analgesic,MI,Midwest
+Minnesota,2009,3.5,Opioid Analgesic,MN,Midwest
+Minnesota,2010,3.1,Opioid Analgesic,MN,Midwest
+Minnesota,2011,3.1,Opioid Analgesic,MN,Midwest
+Minnesota,2012,3.3,Opioid Analgesic,MN,Midwest
+Minnesota,2013,3.3,Opioid Analgesic,MN,Midwest
+Minnesota,2014,3.4,Opioid Analgesic,MN,Midwest
+Minnesota,2015,3.4,Opioid Analgesic,MN,Midwest
+Minnesota,2016,4.6,Opioid Analgesic,MN,Midwest
+Minnesota,2017,5.8,Opioid Analgesic,MN,Midwest
+Mississippi,2013,2.6,Opioid Analgesic,MS,South
+Mississippi,2014,2.7,Opioid Analgesic,MS,South
+Mississippi,2015,3.5,Opioid Analgesic,MS,South
+Mississippi,2016,4.5,Opioid Analgesic,MS,South
+Mississippi,2017,5,Opioid Analgesic,MS,South
+Missouri,1999,0.6,Opioid Analgesic,MO,Midwest
+Missouri,2000,1.1,Opioid Analgesic,MO,Midwest
+Missouri,2001,1.5,Opioid Analgesic,MO,Midwest
+Missouri,2002,1.9,Opioid Analgesic,MO,Midwest
+Missouri,2003,3.4,Opioid Analgesic,MO,Midwest
+Missouri,2004,3.1,Opioid Analgesic,MO,Midwest
+Missouri,2005,3.9,Opioid Analgesic,MO,Midwest
+Missouri,2006,5.4,Opioid Analgesic,MO,Midwest
+Missouri,2007,4.8,Opioid Analgesic,MO,Midwest
+Missouri,2008,5,Opioid Analgesic,MO,Midwest
+Missouri,2009,4.5,Opioid Analgesic,MO,Midwest
+Missouri,2010,6,Opioid Analgesic,MO,Midwest
+Missouri,2011,5,Opioid Analgesic,MO,Midwest
+Missouri,2012,4.5,Opioid Analgesic,MO,Midwest
+Missouri,2013,5.3,Opioid Analgesic,MO,Midwest
+Missouri,2014,5.6,Opioid Analgesic,MO,Midwest
+Missouri,2015,6.5,Opioid Analgesic,MO,Midwest
+Missouri,2016,10.3,Opioid Analgesic,MO,Midwest
+Missouri,2017,12.5,Opioid Analgesic,MO,Midwest
+Nevada,1999,4.5,Opioid Analgesic,NV,West
+Nevada,2000,5.2,Opioid Analgesic,NV,West
+Nevada,2001,5.1,Opioid Analgesic,NV,West
+Nevada,2002,5.2,Opioid Analgesic,NV,West
+Nevada,2003,6,Opioid Analgesic,NV,West
+Nevada,2004,7,Opioid Analgesic,NV,West
+Nevada,2005,8.3,Opioid Analgesic,NV,West
+Nevada,2006,8.4,Opioid Analgesic,NV,West
+Nevada,2007,10,Opioid Analgesic,NV,West
+Nevada,2008,10.1,Opioid Analgesic,NV,West
+Nevada,2009,12.6,Opioid Analgesic,NV,West
+Nevada,2010,12.6,Opioid Analgesic,NV,West
+Nevada,2011,12.7,Opioid Analgesic,NV,West
+Nevada,2012,11.7,Opioid Analgesic,NV,West
+Nevada,2013,9.8,Opioid Analgesic,NV,West
+Nevada,2014,8.5,Opioid Analgesic,NV,West
+Nevada,2015,9.1,Opioid Analgesic,NV,West
+Nevada,2016,8.4,Opioid Analgesic,NV,West
+Nevada,2017,8.5,Opioid Analgesic,NV,West
+New Hampshire,2008,4.7,Opioid Analgesic,NH,Northeast
+New Hampshire,2009,7,Opioid Analgesic,NH,Northeast
+New Hampshire,2010,6.9,Opioid Analgesic,NH,Northeast
+New Hampshire,2011,7.4,Opioid Analgesic,NH,Northeast
+New Hampshire,2012,5.9,Opioid Analgesic,NH,Northeast
+New Hampshire,2013,6.3,Opioid Analgesic,NH,Northeast
+New Hampshire,2014,16.1,Opioid Analgesic,NH,Northeast
+New Hampshire,2015,24.6,Opioid Analgesic,NH,Northeast
+New Hampshire,2016,30.8,Opioid Analgesic,NH,Northeast
+New Hampshire,2017,29.9,Opioid Analgesic,NH,Northeast
+New Jersey,1999,1.4,Opioid Analgesic,NJ,Northeast
+New Jersey,2000,1.1,Opioid Analgesic,NJ,Northeast
+New Jersey,2001,1.2,Opioid Analgesic,NJ,Northeast
+New Jersey,2002,1.6,Opioid Analgesic,NJ,Northeast
+New Jersey,2003,1.9,Opioid Analgesic,NJ,Northeast
+New Jersey,2004,1.5,Opioid Analgesic,NJ,Northeast
+New Jersey,2005,2.1,Opioid Analgesic,NJ,Northeast
+New Jersey,2006,2.3,Opioid Analgesic,NJ,Northeast
+New Jersey,2007,2.3,Opioid Analgesic,NJ,Northeast
+New Jersey,2008,1.9,Opioid Analgesic,NJ,Northeast
+New Jersey,2009,0.2,Opioid Analgesic,NJ,Northeast
+New Jersey,2010,2.4,Opioid Analgesic,NJ,Northeast
+New Jersey,2011,3,Opioid Analgesic,NJ,Northeast
+New Jersey,2012,3.1,Opioid Analgesic,NJ,Northeast
+New Jersey,2013,3.3,Opioid Analgesic,NJ,Northeast
+New Jersey,2014,3.8,Opioid Analgesic,NJ,Northeast
+New Jersey,2015,5,Opioid Analgesic,NJ,Northeast
+New Jersey,2016,10.7,Opioid Analgesic,NJ,Northeast
+New Jersey,2017,17.6,Opioid Analgesic,NJ,Northeast
+New Mexico,1999,7.8,Opioid Analgesic,NM,West
+New Mexico,2000,6.6,Opioid Analgesic,NM,West
+New Mexico,2001,6,Opioid Analgesic,NM,West
+New Mexico,2002,8.1,Opioid Analgesic,NM,West
+New Mexico,2003,9.3,Opioid Analgesic,NM,West
+New Mexico,2004,6.8,Opioid Analgesic,NM,West
+New Mexico,2005,7.8,Opioid Analgesic,NM,West
+New Mexico,2006,10.4,Opioid Analgesic,NM,West
+New Mexico,2007,10.3,Opioid Analgesic,NM,West
+New Mexico,2008,11.4,Opioid Analgesic,NM,West
+New Mexico,2009,6.4,Opioid Analgesic,NM,West
+New Mexico,2010,6.8,Opioid Analgesic,NM,West
+New Mexico,2011,7.3,Opioid Analgesic,NM,West
+New Mexico,2012,9.3,Opioid Analgesic,NM,West
+New Mexico,2013,9.8,Opioid Analgesic,NM,West
+New Mexico,2014,12.8,Opioid Analgesic,NM,West
+New Mexico,2015,8.7,Opioid Analgesic,NM,West
+New Mexico,2016,10.1,Opioid Analgesic,NM,West
+New Mexico,2017,9.4,Opioid Analgesic,NM,West
+New York,1999,0.9,Opioid Analgesic,NY,Northeast
+New York,2000,0.7,Opioid Analgesic,NY,Northeast
+New York,2001,1,Opioid Analgesic,NY,Northeast
+New York,2002,0.9,Opioid Analgesic,NY,Northeast
+New York,2003,1.1,Opioid Analgesic,NY,Northeast
+New York,2004,1,Opioid Analgesic,NY,Northeast
+New York,2005,1.3,Opioid Analgesic,NY,Northeast
+New York,2006,3.3,Opioid Analgesic,NY,Northeast
+New York,2007,3.3,Opioid Analgesic,NY,Northeast
+New York,2008,3.6,Opioid Analgesic,NY,Northeast
+New York,2009,3.5,Opioid Analgesic,NY,Northeast
+New York,2010,4,Opioid Analgesic,NY,Northeast
+New York,2011,4.6,Opioid Analgesic,NY,Northeast
+New York,2012,4.7,Opioid Analgesic,NY,Northeast
+New York,2013,4.6,Opioid Analgesic,NY,Northeast
+New York,2014,4.8,Opioid Analgesic,NY,Northeast
+New York,2015,6.6,Opioid Analgesic,NY,Northeast
+New York,2016,11.4,Opioid Analgesic,NY,Northeast
+New York,2017,13.7,Opioid Analgesic,NY,Northeast
+North Carolina,1999,1.1,Opioid Analgesic,NC,South
+North Carolina,2000,2.3,Opioid Analgesic,NC,South
+North Carolina,2001,2.9,Opioid Analgesic,NC,South
+North Carolina,2002,3.8,Opioid Analgesic,NC,South
+North Carolina,2003,4.7,Opioid Analgesic,NC,South
+North Carolina,2004,5.2,Opioid Analgesic,NC,South
+North Carolina,2005,6.1,Opioid Analgesic,NC,South
+North Carolina,2006,6.4,Opioid Analgesic,NC,South
+North Carolina,2007,6.8,Opioid Analgesic,NC,South
+North Carolina,2008,7.5,Opioid Analgesic,NC,South
+North Carolina,2009,7.5,Opioid Analgesic,NC,South
+North Carolina,2010,6.7,Opioid Analgesic,NC,South
+North Carolina,2011,7.1,Opioid Analgesic,NC,South
+North Carolina,2012,6.1,Opioid Analgesic,NC,South
+North Carolina,2013,5.8,Opioid Analgesic,NC,South
+North Carolina,2014,6.7,Opioid Analgesic,NC,South
+North Carolina,2015,7.9,Opioid Analgesic,NC,South
+North Carolina,2016,10.7,Opioid Analgesic,NC,South
+North Carolina,2017,15.8,Opioid Analgesic,NC,South
+North Dakota,2016,4.2,Opioid Analgesic,ND,Midwest
+Ohio,1999,0.8,Opioid Analgesic,OH,Midwest
+Ohio,2000,1.1,Opioid Analgesic,OH,Midwest
+Ohio,2001,1.6,Opioid Analgesic,OH,Midwest
+Ohio,2002,2.2,Opioid Analgesic,OH,Midwest
+Ohio,2003,2,Opioid Analgesic,OH,Midwest
+Ohio,2004,2.9,Opioid Analgesic,OH,Midwest
+Ohio,2005,3.3,Opioid Analgesic,OH,Midwest
+Ohio,2006,4,Opioid Analgesic,OH,Midwest
+Ohio,2007,4.3,Opioid Analgesic,OH,Midwest
+Ohio,2008,4.5,Opioid Analgesic,OH,Midwest
+Ohio,2009,3.5,Opioid Analgesic,OH,Midwest
+Ohio,2010,6.1,Opioid Analgesic,OH,Midwest
+Ohio,2011,6.5,Opioid Analgesic,OH,Midwest
+Ohio,2012,5.7,Opioid Analgesic,OH,Midwest
+Ohio,2013,5.9,Opioid Analgesic,OH,Midwest
+Ohio,2014,9.7,Opioid Analgesic,OH,Midwest
+Ohio,2015,15,Opioid Analgesic,OH,Midwest
+Ohio,2016,24.2,Opioid Analgesic,OH,Midwest
+Ohio,2017,33.5,Opioid Analgesic,OH,Midwest
+Oklahoma,2000,2.6,Opioid Analgesic,OK,South
+Oklahoma,2009,13.9,Opioid Analgesic,OK,South
+Oklahoma,2011,11.4,Opioid Analgesic,OK,South
+Oklahoma,2012,12.6,Opioid Analgesic,OK,South
+Oklahoma,2013,12.1,Opioid Analgesic,OK,South
+Oklahoma,2014,11.6,Opioid Analgesic,OK,South
+Oklahoma,2015,9.4,Opioid Analgesic,OK,South
+Oklahoma,2016,9.5,Opioid Analgesic,OK,South
+Oklahoma,2017,7.5,Opioid Analgesic,OK,South
+Oregon,1999,1,Opioid Analgesic,OR,West
+Oregon,2000,1.5,Opioid Analgesic,OR,West
+Oregon,2001,2.2,Opioid Analgesic,OR,West
+Oregon,2002,3.5,Opioid Analgesic,OR,West
+Oregon,2003,4.2,Opioid Analgesic,OR,West
+Oregon,2004,3.8,Opioid Analgesic,OR,West
+Oregon,2005,4.5,Opioid Analgesic,OR,West
+Oregon,2006,6.6,Opioid Analgesic,OR,West
+Oregon,2007,5.6,Opioid Analgesic,OR,West
+Oregon,2008,5.3,Opioid Analgesic,OR,West
+Oregon,2009,5.4,Opioid Analgesic,OR,West
+Oregon,2010,5.2,Opioid Analgesic,OR,West
+Oregon,2011,5.6,Opioid Analgesic,OR,West
+Oregon,2012,4.5,Opioid Analgesic,OR,West
+Oregon,2013,4.1,Opioid Analgesic,OR,West
+Oregon,2014,4.5,Opioid Analgesic,OR,West
+Oregon,2015,4.6,Opioid Analgesic,OR,West
+Oregon,2016,4,Opioid Analgesic,OR,West
+Oregon,2017,4.4,Opioid Analgesic,OR,West
+Pennsylvania,1999,0.7,Opioid Analgesic,PA,Northeast
+Pennsylvania,2000,1,Opioid Analgesic,PA,Northeast
+Pennsylvania,2001,0.8,Opioid Analgesic,PA,Northeast
+Pennsylvania,2002,1.2,Opioid Analgesic,PA,Northeast
+Pennsylvania,2003,1.9,Opioid Analgesic,PA,Northeast
+Pennsylvania,2004,2.3,Opioid Analgesic,PA,Northeast
+Pennsylvania,2005,2.3,Opioid Analgesic,PA,Northeast
+Pennsylvania,2006,2.3,Opioid Analgesic,PA,Northeast
+Pennsylvania,2007,2.8,Opioid Analgesic,PA,Northeast
+Pennsylvania,2008,3.1,Opioid Analgesic,PA,Northeast
+Pennsylvania,2009,3.3,Opioid Analgesic,PA,Northeast
+Pennsylvania,2010,3.5,Opioid Analgesic,PA,Northeast
+Pennsylvania,2011,3.5,Opioid Analgesic,PA,Northeast
+Pennsylvania,2012,3.6,Opioid Analgesic,PA,Northeast
+Pennsylvania,2013,3.9,Opioid Analgesic,PA,Northeast
+Pennsylvania,2014,4.7,Opioid Analgesic,PA,Northeast
+Pennsylvania,2015,6.3,Opioid Analgesic,PA,Northeast
+Pennsylvania,2016,13.6,Opioid Analgesic,PA,Northeast
+Pennsylvania,2017,17.5,Opioid Analgesic,PA,Northeast
+Rhode Island,2011,8.6,Opioid Analgesic,RI,Northeast
+Rhode Island,2012,9.4,Opioid Analgesic,RI,Northeast
+Rhode Island,2013,10.5,Opioid Analgesic,RI,Northeast
+Rhode Island,2014,13.3,Opioid Analgesic,RI,Northeast
+Rhode Island,2015,19.7,Opioid Analgesic,RI,Northeast
+Rhode Island,2016,22.6,Opioid Analgesic,RI,Northeast
+Rhode Island,2017,24.2,Opioid Analgesic,RI,Northeast
+South Carolina,2000,1.5,Opioid Analgesic,SC,South
+South Carolina,2008,3.8,Opioid Analgesic,SC,South
+South Carolina,2009,4.3,Opioid Analgesic,SC,South
+South Carolina,2010,5,Opioid Analgesic,SC,South
+South Carolina,2011,4.4,Opioid Analgesic,SC,South
+South Carolina,2012,4.1,Opioid Analgesic,SC,South
+South Carolina,2013,4.2,Opioid Analgesic,SC,South
+South Carolina,2014,8.8,Opioid Analgesic,SC,South
+South Carolina,2015,8.9,Opioid Analgesic,SC,South
+South Carolina,2016,10.1,Opioid Analgesic,SC,South
+South Carolina,2017,12.4,Opioid Analgesic,SC,South
+Tennessee,1999,1,Opioid Analgesic,TN,South
+Tennessee,2005,6,Opioid Analgesic,TN,South
+Tennessee,2009,6.8,Opioid Analgesic,TN,South
+Tennessee,2010,8.3,Opioid Analgesic,TN,South
+Tennessee,2011,8,Opioid Analgesic,TN,South
+Tennessee,2012,8.9,Opioid Analgesic,TN,South
+Tennessee,2013,9.4,Opioid Analgesic,TN,South
+Tennessee,2014,10.1,Opioid Analgesic,TN,South
+Tennessee,2015,12.2,Opioid Analgesic,TN,South
+Tennessee,2016,14.4,Opioid Analgesic,TN,South
+Tennessee,2017,15.6,Opioid Analgesic,TN,South
+Texas,1999,0.7,Opioid Analgesic,TX,South
+Texas,2000,0.9,Opioid Analgesic,TX,South
+Texas,2001,1.4,Opioid Analgesic,TX,South
+Texas,2002,1.9,Opioid Analgesic,TX,South
+Texas,2003,2.1,Opioid Analgesic,TX,South
+Texas,2004,2.3,Opioid Analgesic,TX,South
+Texas,2005,2.5,Opioid Analgesic,TX,South
+Texas,2006,3.2,Opioid Analgesic,TX,South
+Texas,2007,2.8,Opioid Analgesic,TX,South
+Texas,2008,2.3,Opioid Analgesic,TX,South
+Texas,2009,2.8,Opioid Analgesic,TX,South
+Texas,2010,2.9,Opioid Analgesic,TX,South
+Texas,2011,2.7,Opioid Analgesic,TX,South
+Texas,2012,2.3,Opioid Analgesic,TX,South
+Texas,2013,2.1,Opioid Analgesic,TX,South
+Texas,2014,2.2,Opioid Analgesic,TX,South
+Texas,2015,2.4,Opioid Analgesic,TX,South
+Texas,2016,2.6,Opioid Analgesic,TX,South
+Texas,2017,2.9,Opioid Analgesic,TX,South
+Utah,1999,4.6,Opioid Analgesic,UT,West
+Utah,2000,5.3,Opioid Analgesic,UT,West
+Utah,2001,5.1,Opioid Analgesic,UT,West
+Utah,2002,6.5,Opioid Analgesic,UT,West
+Utah,2003,9.2,Opioid Analgesic,UT,West
+Utah,2004,9.1,Opioid Analgesic,UT,West
+Utah,2005,10.9,Opioid Analgesic,UT,West
+Utah,2006,11.2,Opioid Analgesic,UT,West
+Utah,2007,11.6,Opioid Analgesic,UT,West
+Utah,2008,10.4,Opioid Analgesic,UT,West
+Utah,2009,10.9,Opioid Analgesic,UT,West
+Utah,2010,9.7,Opioid Analgesic,UT,West
+Utah,2011,11.5,Opioid Analgesic,UT,West
+Utah,2012,12.5,Opioid Analgesic,UT,West
+Utah,2013,13,Opioid Analgesic,UT,West
+Utah,2014,12.9,Opioid Analgesic,UT,West
+Utah,2015,12.8,Opioid Analgesic,UT,West
+Utah,2016,11.6,Opioid Analgesic,UT,West
+Utah,2017,10.3,Opioid Analgesic,UT,West
+Vermont,2012,6.1,Opioid Analgesic,VT,Northeast
+Vermont,2013,8.3,Opioid Analgesic,VT,Northeast
+Vermont,2014,5.7,Opioid Analgesic,VT,Northeast
+Vermont,2015,8.3,Opioid Analgesic,VT,Northeast
+Vermont,2016,11.8,Opioid Analgesic,VT,Northeast
+Vermont,2017,15.9,Opioid Analgesic,VT,Northeast
+Virginia,1999,1.5,Opioid Analgesic,VA,South
+Virginia,2000,1.9,Opioid Analgesic,VA,South
+Virginia,2001,2.3,Opioid Analgesic,VA,South
+Virginia,2002,3,Opioid Analgesic,VA,South
+Virginia,2003,3,Opioid Analgesic,VA,South
+Virginia,2004,3.5,Opioid Analgesic,VA,South
+Virginia,2005,3.2,Opioid Analgesic,VA,South
+Virginia,2006,3.4,Opioid Analgesic,VA,South
+Virginia,2007,3.9,Opioid Analgesic,VA,South
+Virginia,2008,4.4,Opioid Analgesic,VA,South
+Virginia,2009,3.9,Opioid Analgesic,VA,South
+Virginia,2010,3.8,Opioid Analgesic,VA,South
+Virginia,2011,5.1,Opioid Analgesic,VA,South
+Virginia,2012,4.3,Opioid Analgesic,VA,South
+Virginia,2013,4.8,Opioid Analgesic,VA,South
+Virginia,2014,5.6,Opioid Analgesic,VA,South
+Virginia,2015,5.9,Opioid Analgesic,VA,South
+Virginia,2016,10.5,Opioid Analgesic,VA,South
+Virginia,2017,11.9,Opioid Analgesic,VA,South
+Washington,1999,2.4,Opioid Analgesic,WA,West
+Washington,2000,2.6,Opioid Analgesic,WA,West
+Washington,2001,3.1,Opioid Analgesic,WA,West
+Washington,2002,4.1,Opioid Analgesic,WA,West
+Washington,2003,4.7,Opioid Analgesic,WA,West
+Washington,2004,6.4,Opioid Analgesic,WA,West
+Washington,2005,6.8,Opioid Analgesic,WA,West
+Washington,2006,7.7,Opioid Analgesic,WA,West
+Washington,2007,7.1,Opioid Analgesic,WA,West
+Washington,2008,7.9,Opioid Analgesic,WA,West
+Washington,2009,7.9,Opioid Analgesic,WA,West
+Washington,2010,6.9,Opioid Analgesic,WA,West
+Washington,2011,7,Opioid Analgesic,WA,West
+Washington,2012,6.5,Opioid Analgesic,WA,West
+Washington,2013,5.6,Opioid Analgesic,WA,West
+Washington,2014,4.9,Opioid Analgesic,WA,West
+Washington,2015,4.7,Opioid Analgesic,WA,West
+Washington,2016,5.3,Opioid Analgesic,WA,West
+Washington,2017,5.5,Opioid Analgesic,WA,West
+West Virginia,2004,12.7,Opioid Analgesic,WV,South
+West Virginia,2007,16.5,Opioid Analgesic,WV,South
+West Virginia,2008,18,Opioid Analgesic,WV,South
+West Virginia,2009,8.1,Opioid Analgesic,WV,South
+West Virginia,2010,22.4,Opioid Analgesic,WV,South
+West Virginia,2011,27.5,Opioid Analgesic,WV,South
+West Virginia,2012,22.6,Opioid Analgesic,WV,South
+West Virginia,2013,21.9,Opioid Analgesic,WV,South
+West Virginia,2014,22.3,Opioid Analgesic,WV,South
+West Virginia,2015,26.8,Opioid Analgesic,WV,South
+West Virginia,2016,33.7,Opioid Analgesic,WV,South
+West Virginia,2017,43.1,Opioid Analgesic,WV,South
+Wisconsin,1999,0.8,Opioid Analgesic,WI,Midwest
+Wisconsin,2000,1.2,Opioid Analgesic,WI,Midwest
+Wisconsin,2001,1.7,Opioid Analgesic,WI,Midwest
+Wisconsin,2002,2.3,Opioid Analgesic,WI,Midwest
+Wisconsin,2003,2.7,Opioid Analgesic,WI,Midwest
+Wisconsin,2004,3.1,Opioid Analgesic,WI,Midwest
+Wisconsin,2005,3.7,Opioid Analgesic,WI,Midwest
+Wisconsin,2006,4.8,Opioid Analgesic,WI,Midwest
+Wisconsin,2007,5.3,Opioid Analgesic,WI,Midwest
+Wisconsin,2008,4.7,Opioid Analgesic,WI,Midwest
+Wisconsin,2009,4.9,Opioid Analgesic,WI,Midwest
+Wisconsin,2010,5.1,Opioid Analgesic,WI,Midwest
+Wisconsin,2011,5.2,Opioid Analgesic,WI,Midwest
+Wisconsin,2012,4.8,Opioid Analgesic,WI,Midwest
+Wisconsin,2013,6.1,Opioid Analgesic,WI,Midwest
+Wisconsin,2014,6.2,Opioid Analgesic,WI,Midwest
+Wisconsin,2015,6,Opioid Analgesic,WI,Midwest
+Wisconsin,2016,9.5,Opioid Analgesic,WI,Midwest
+Wisconsin,2017,11.5,Opioid Analgesic,WI,Midwest
+Wyoming,2014,6.2,Opioid Analgesic,WY,West
+Alabama,1999,0.6,Opioid Analgesic,AL,South
+Alabama,2000,0.8,Opioid Analgesic,AL,South
+Alabama,2001,1.1,Opioid Analgesic,AL,South
+Alabama,2002,1.3,Opioid Analgesic,AL,South
+Alabama,2003,0.9,Opioid Analgesic,AL,South
+Alabama,2004,1.6,Opioid Analgesic,AL,South
+Alabama,2005,1.5,Opioid Analgesic,AL,South
+Alabama,2006,2.2,Opioid Analgesic,AL,South
+Alabama,2007,3.2,Opioid Analgesic,AL,South
+Alabama,2008,3.6,Opioid Analgesic,AL,South
+Alabama,2010,3.3,Opioid Analgesic,AL,South
+Alaska,2000,3.7,Opioid Analgesic,AK,West
+Alaska,2006,3.3,Opioid Analgesic,AK,West
+Alaska,2008,10.3,Opioid Analgesic,AK,West
+Alaska,2009,10,Opioid Analgesic,AK,West
+Alaska,2010,8,Opioid Analgesic,AK,West
+Arkansas,1999,0.8,Opioid Analgesic,AR,South
+Arkansas,2001,0.8,Opioid Analgesic,AR,South
+Arkansas,2002,2.4,Opioid Analgesic,AR,South
+Arkansas,2003,2.6,Opioid Analgesic,AR,South
+Arkansas,2004,3.6,Opioid Analgesic,AR,South
+Arkansas,2005,3.5,Opioid Analgesic,AR,South
+Arkansas,2006,4.4,Opioid Analgesic,AR,South
+Arkansas,2007,4.6,Opioid Analgesic,AR,South
+Arkansas,2008,5.9,Opioid Analgesic,AR,South
+Arkansas,2009,6.2,Opioid Analgesic,AR,South
+Arkansas,2010,5.6,Opioid Analgesic,AR,South
+Arkansas,2011,4.8,Opioid Analgesic,AR,South
+Arkansas,2012,4.7,Opioid Analgesic,AR,South
+Arkansas,2013,4.6,Opioid Analgesic,AR,South
+Arkansas,2014,4.9,Opioid Analgesic,AR,South
+Arkansas,2015,5.2,Opioid Analgesic,AR,South
+Delaware,2003,2.8,Opioid Analgesic,DE,South
+Delaware,2004,2.6,Opioid Analgesic,DE,South
+Delaware,2006,3.1,Opioid Analgesic,DE,South
+Delaware,2007,3.4,Opioid Analgesic,DE,South
+Delaware,2008,5,Opioid Analgesic,DE,South
+Delaware,2009,6.5,Opioid Analgesic,DE,South
+District of Columbia,2004,4.1,Opioid Analgesic,NA,NA
+District of Columbia,2006,3.9,Opioid Analgesic,NA,NA
+Georgia,1999,0.5,Opioid Analgesic,GA,South
+Georgia,2000,0.9,Opioid Analgesic,GA,South
+Georgia,2001,1.6,Opioid Analgesic,GA,South
+Georgia,2002,1.8,Opioid Analgesic,GA,South
+Georgia,2003,2,Opioid Analgesic,GA,South
+Georgia,2004,2.4,Opioid Analgesic,GA,South
+Georgia,2005,2.8,Opioid Analgesic,GA,South
+Georgia,2006,3.1,Opioid Analgesic,GA,South
+Georgia,2010,4.7,Opioid Analgesic,GA,South
+Hawaii,1999,1.8,Opioid Analgesic,HI,West
+Hawaii,2000,1.7,Opioid Analgesic,HI,West
+Hawaii,2001,2.4,Opioid Analgesic,HI,West
+Hawaii,2002,2.9,Opioid Analgesic,HI,West
+Hawaii,2003,2.2,Opioid Analgesic,HI,West
+Hawaii,2004,3.7,Opioid Analgesic,HI,West
+Hawaii,2005,3.9,Opioid Analgesic,HI,West
+Hawaii,2006,3.1,Opioid Analgesic,HI,West
+Hawaii,2007,4.9,Opioid Analgesic,HI,West
+Hawaii,2008,2.6,Opioid Analgesic,HI,West
+Hawaii,2009,3.6,Opioid Analgesic,HI,West
+Hawaii,2010,3.4,Opioid Analgesic,HI,West
+Hawaii,2011,4.4,Opioid Analgesic,HI,West
+Hawaii,2012,3.2,Opioid Analgesic,HI,West
+Idaho,2001,2.7,Opioid Analgesic,ID,West
+Idaho,2002,2.6,Opioid Analgesic,ID,West
+Idaho,2003,3.2,Opioid Analgesic,ID,West
+Idaho,2004,2.7,Opioid Analgesic,ID,West
+Idaho,2005,2.3,Opioid Analgesic,ID,West
+Idaho,2006,3.7,Opioid Analgesic,ID,West
+Idaho,2007,3.1,Opioid Analgesic,ID,West
+Idaho,2008,3.5,Opioid Analgesic,ID,West
+Idaho,2009,3.2,Opioid Analgesic,ID,West
+Idaho,2010,3.9,Opioid Analgesic,ID,West
+Idaho,2011,3.9,Opioid Analgesic,ID,West
+Idaho,2012,3,Opioid Analgesic,ID,West
+Idaho,2013,3.5,Opioid Analgesic,ID,West
+Indiana,1999,0.4,Opioid Analgesic,IN,Midwest
+Indiana,2000,0.4,Opioid Analgesic,IN,Midwest
+Indiana,2001,0.7,Opioid Analgesic,IN,Midwest
+Indiana,2002,0.6,Opioid Analgesic,IN,Midwest
+Indiana,2003,1.5,Opioid Analgesic,IN,Midwest
+Indiana,2004,1.4,Opioid Analgesic,IN,Midwest
+Indiana,2006,1.9,Opioid Analgesic,IN,Midwest
+Iowa,2002,0.8,Opioid Analgesic,IA,Midwest
+Iowa,2003,0.8,Opioid Analgesic,IA,Midwest
+Iowa,2004,1.3,Opioid Analgesic,IA,Midwest
+Iowa,2005,1.7,Opioid Analgesic,IA,Midwest
+Iowa,2006,2.3,Opioid Analgesic,IA,Midwest
+Iowa,2007,2.5,Opioid Analgesic,IA,Midwest
+Iowa,2009,3.5,Opioid Analgesic,IA,Midwest
+Iowa,2010,3.6,Opioid Analgesic,IA,Midwest
+Kansas,2001,1.3,Opioid Analgesic,KS,Midwest
+Kansas,2002,2.4,Opioid Analgesic,KS,Midwest
+Kansas,2003,2,Opioid Analgesic,KS,Midwest
+Kansas,2004,3.4,Opioid Analgesic,KS,Midwest
+Kansas,2005,3.2,Opioid Analgesic,KS,Midwest
+Kansas,2006,3.6,Opioid Analgesic,KS,Midwest
+Kansas,2007,3.5,Opioid Analgesic,KS,Midwest
+Kansas,2008,2.8,Opioid Analgesic,KS,Midwest
+Kansas,2010,2.8,Opioid Analgesic,KS,Midwest
+Kansas,2011,3.5,Opioid Analgesic,KS,Midwest
+Kentucky,1999,1.1,Opioid Analgesic,KY,South
+Kentucky,2000,1.8,Opioid Analgesic,KY,South
+Kentucky,2001,2.9,Opioid Analgesic,KY,South
+Kentucky,2002,3.6,Opioid Analgesic,KY,South
+Kentucky,2003,5,Opioid Analgesic,KY,South
+Kentucky,2004,4.8,Opioid Analgesic,KY,South
+Kentucky,2005,6.1,Opioid Analgesic,KY,South
+Kentucky,2006,7.1,Opioid Analgesic,KY,South
+Kentucky,2007,7.2,Opioid Analgesic,KY,South
+Louisiana,2000,0.7,Opioid Analgesic,LA,South
+Louisiana,2001,1.3,Opioid Analgesic,LA,South
+Louisiana,2002,1.5,Opioid Analgesic,LA,South
+Louisiana,2003,2.1,Opioid Analgesic,LA,South
+Louisiana,2004,2.6,Opioid Analgesic,LA,South
+Louisiana,2005,3,Opioid Analgesic,LA,South
+Louisiana,2007,4.2,Opioid Analgesic,LA,South
+Maine,2000,2.3,Opioid Analgesic,ME,Northeast
+Maine,2001,2.5,Opioid Analgesic,ME,Northeast
+Maine,2002,5.2,Opioid Analgesic,ME,Northeast
+Maine,2003,5.1,Opioid Analgesic,ME,Northeast
+Maine,2004,6.3,Opioid Analgesic,ME,Northeast
+Maine,2005,7.4,Opioid Analgesic,ME,Northeast
+Maine,2006,6,Opioid Analgesic,ME,Northeast
+Maine,2007,6.3,Opioid Analgesic,ME,Northeast
+Maine,2008,6.8,Opioid Analgesic,ME,Northeast
+Maine,2009,7.2,Opioid Analgesic,ME,Northeast
+Maine,2010,6,Opioid Analgesic,ME,Northeast
+Maine,2011,5.7,Opioid Analgesic,ME,Northeast
+Maryland,2000,0.8,Opioid Analgesic,MD,South
+Maryland,2001,0.8,Opioid Analgesic,MD,South
+Massachusetts,2000,0.6,Opioid Analgesic,MA,Northeast
+Minnesota,1999,0.6,Opioid Analgesic,MN,Midwest
+Minnesota,2000,0.4,Opioid Analgesic,MN,Midwest
+Minnesota,2001,0.9,Opioid Analgesic,MN,Midwest
+Minnesota,2002,1.1,Opioid Analgesic,MN,Midwest
+Minnesota,2003,1.3,Opioid Analgesic,MN,Midwest
+Minnesota,2004,1.7,Opioid Analgesic,MN,Midwest
+Minnesota,2005,1.8,Opioid Analgesic,MN,Midwest
+Minnesota,2006,2.1,Opioid Analgesic,MN,Midwest
+Minnesota,2007,2.6,Opioid Analgesic,MN,Midwest
+Minnesota,2008,2.8,Opioid Analgesic,MN,Midwest
+Mississippi,2001,0.7,Opioid Analgesic,MS,South
+Mississippi,2002,0.8,Opioid Analgesic,MS,South
+Mississippi,2003,0.9,Opioid Analgesic,MS,South
+Mississippi,2004,0.7,Opioid Analgesic,MS,South
+Mississippi,2005,1,Opioid Analgesic,MS,South
+Mississippi,2006,1.9,Opioid Analgesic,MS,South
+Mississippi,2007,2.9,Opioid Analgesic,MS,South
+Mississippi,2008,3.1,Opioid Analgesic,MS,South
+Mississippi,2009,2.7,Opioid Analgesic,MS,South
+Mississippi,2010,2.9,Opioid Analgesic,MS,South
+Mississippi,2011,2.3,Opioid Analgesic,MS,South
+Mississippi,2012,3,Opioid Analgesic,MS,South
+Montana,2003,3.9,Opioid Analgesic,MT,West
+Montana,2004,3.7,Opioid Analgesic,MT,West
+Montana,2005,3.5,Opioid Analgesic,MT,West
+Montana,2006,4.1,Opioid Analgesic,MT,West
+Montana,2007,5.2,Opioid Analgesic,MT,West
+Montana,2008,5.8,Opioid Analgesic,MT,West
+Montana,2009,8.4,Opioid Analgesic,MT,West
+Montana,2010,4.3,Opioid Analgesic,MT,West
+Montana,2011,5.8,Opioid Analgesic,MT,West
+Montana,2012,4.4,Opioid Analgesic,MT,West
+Montana,2013,5.4,Opioid Analgesic,MT,West
+Montana,2014,4.2,Opioid Analgesic,MT,West
+Montana,2015,3.7,Opioid Analgesic,MT,West
+Montana,2016,2.7,Opioid Analgesic,MT,West
+Montana,2017,2.6,Opioid Analgesic,MT,West
+Nebraska,2001,1.4,Opioid Analgesic,NE,Midwest
+Nebraska,2004,1.2,Opioid Analgesic,NE,Midwest
+Nebraska,2005,2,Opioid Analgesic,NE,Midwest
+Nebraska,2006,1.6,Opioid Analgesic,NE,Midwest
+Nebraska,2007,1.9,Opioid Analgesic,NE,Midwest
+Nebraska,2008,1.4,Opioid Analgesic,NE,Midwest
+Nebraska,2009,3,Opioid Analgesic,NE,Midwest
+Nebraska,2010,2.6,Opioid Analgesic,NE,Midwest
+Nebraska,2011,2.6,Opioid Analgesic,NE,Midwest
+Nebraska,2012,2.6,Opioid Analgesic,NE,Midwest
+Nebraska,2013,1.9,Opioid Analgesic,NE,Midwest
+Nebraska,2014,2.2,Opioid Analgesic,NE,Midwest
+Nebraska,2015,2.4,Opioid Analgesic,NE,Midwest
+Nebraska,2016,1.8,Opioid Analgesic,NE,Midwest
+Nebraska,2017,2.5,Opioid Analgesic,NE,Midwest
+New Hampshire,2001,1.7,Opioid Analgesic,NH,Northeast
+New Hampshire,2002,3.4,Opioid Analgesic,NH,Northeast
+New Hampshire,2003,4.5,Opioid Analgesic,NH,Northeast
+New Hampshire,2004,4.3,Opioid Analgesic,NH,Northeast
+New Hampshire,2005,5.3,Opioid Analgesic,NH,Northeast
+New Hampshire,2006,5.5,Opioid Analgesic,NH,Northeast
+New Hampshire,2007,8,Opioid Analgesic,NH,Northeast
+North Dakota,2014,3.4,Opioid Analgesic,ND,Midwest
+North Dakota,2015,2.8,Opioid Analgesic,ND,Midwest
+North Dakota,2017,3.3,Opioid Analgesic,ND,Midwest
+Oklahoma,1999,1.9,Opioid Analgesic,OK,South
+Oklahoma,2001,3.7,Opioid Analgesic,OK,South
+Oklahoma,2002,3.4,Opioid Analgesic,OK,South
+Oklahoma,2003,6.3,Opioid Analgesic,OK,South
+Oklahoma,2004,7.8,Opioid Analgesic,OK,South
+Oklahoma,2005,7.8,Opioid Analgesic,OK,South
+Oklahoma,2006,9.8,Opioid Analgesic,OK,South
+Oklahoma,2007,12.3,Opioid Analgesic,OK,South
+Oklahoma,2008,10.1,Opioid Analgesic,OK,South
+Oklahoma,2010,12.4,Opioid Analgesic,OK,South
+Rhode Island,2001,2.2,Opioid Analgesic,RI,Northeast
+Rhode Island,2002,1.9,Opioid Analgesic,RI,Northeast
+Rhode Island,2003,3.7,Opioid Analgesic,RI,Northeast
+Rhode Island,2004,3,Opioid Analgesic,RI,Northeast
+Rhode Island,2005,4.8,Opioid Analgesic,RI,Northeast
+Rhode Island,2006,6.9,Opioid Analgesic,RI,Northeast
+Rhode Island,2007,4.1,Opioid Analgesic,RI,Northeast
+Rhode Island,2008,5.5,Opioid Analgesic,RI,Northeast
+Rhode Island,2009,5.7,Opioid Analgesic,RI,Northeast
+Rhode Island,2010,7.1,Opioid Analgesic,RI,Northeast
+South Carolina,1999,0.8,Opioid Analgesic,SC,South
+South Carolina,2001,1.7,Opioid Analgesic,SC,South
+South Carolina,2002,1.4,Opioid Analgesic,SC,South
+South Carolina,2003,1.8,Opioid Analgesic,SC,South
+South Carolina,2004,2.6,Opioid Analgesic,SC,South
+South Carolina,2005,3,Opioid Analgesic,SC,South
+South Carolina,2006,4.4,Opioid Analgesic,SC,South
+South Carolina,2007,3.5,Opioid Analgesic,SC,South
+South Dakota,2006,2.6,Opioid Analgesic,SD,Midwest
+South Dakota,2008,3.3,Opioid Analgesic,SD,Midwest
+South Dakota,2009,3.2,Opioid Analgesic,SD,Midwest
+South Dakota,2010,2.9,Opioid Analgesic,SD,Midwest
+South Dakota,2011,3.6,Opioid Analgesic,SD,Midwest
+South Dakota,2013,2.8,Opioid Analgesic,SD,Midwest
+South Dakota,2014,3.5,Opioid Analgesic,SD,Midwest
+South Dakota,2016,3.1,Opioid Analgesic,SD,Midwest
+South Dakota,2017,2.5,Opioid Analgesic,SD,Midwest
+Tennessee,2000,1.1,Opioid Analgesic,TN,South
+Tennessee,2001,1.6,Opioid Analgesic,TN,South
+Tennessee,2002,2.2,Opioid Analgesic,TN,South
+Tennessee,2003,4.2,Opioid Analgesic,TN,South
+Tennessee,2004,5.3,Opioid Analgesic,TN,South
+Tennessee,2006,6.6,Opioid Analgesic,TN,South
+Tennessee,2007,6.5,Opioid Analgesic,TN,South
+Tennessee,2008,6.7,Opioid Analgesic,TN,South
+Vermont,2001,3.4,Opioid Analgesic,VT,Northeast
+Vermont,2002,4.1,Opioid Analgesic,VT,Northeast
+Vermont,2003,7,Opioid Analgesic,VT,Northeast
+Vermont,2004,4.8,Opioid Analgesic,VT,Northeast
+Vermont,2005,4.2,Opioid Analgesic,VT,Northeast
+Vermont,2006,8,Opioid Analgesic,VT,Northeast
+Vermont,2007,6.3,Opioid Analgesic,VT,Northeast
+Vermont,2008,7.5,Opioid Analgesic,VT,Northeast
+Vermont,2009,5,Opioid Analgesic,VT,Northeast
+Vermont,2010,5.3,Opioid Analgesic,VT,Northeast
+Vermont,2011,7.2,Opioid Analgesic,VT,Northeast
+West Virginia,1999,1.1,Opioid Analgesic,WV,South
+West Virginia,2000,1.5,Opioid Analgesic,WV,South
+West Virginia,2001,6.6,Opioid Analgesic,WV,South
+West Virginia,2002,8.4,Opioid Analgesic,WV,South
+West Virginia,2003,10.2,Opioid Analgesic,WV,South
+West Virginia,2005,7.4,Opioid Analgesic,WV,South
+West Virginia,2006,14.7,Opioid Analgesic,WV,South
+Wyoming,2008,5.3,Opioid Analgesic,WY,West
+Wyoming,2009,4.3,Opioid Analgesic,WY,West
+Wyoming,2010,6.4,Opioid Analgesic,WY,West
+Wyoming,2011,6.2,Opioid Analgesic,WY,West
+Wyoming,2012,4.7,Opioid Analgesic,WY,West
+Wyoming,2013,5.5,Opioid Analgesic,WY,West
+Wyoming,2015,6,Opioid Analgesic,WY,West
+Wyoming,2016,4.8,Opioid Analgesic,WY,West
+Wyoming,2017,6.2,Opioid Analgesic,WY,West
