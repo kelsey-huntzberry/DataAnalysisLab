@@ -1,0 +1,613 @@
+state,prescribing_rate,year,state_abbr,region,overdose.rate
+Alabama,107.2,2017,AL,South,6.6
+Alabama,121,2016,AL,South,5
+Alabama,125,2015,AL,South,3.4
+Alabama,135.2,2014,AL,South,3.3
+Alabama,142.4,2013,AL,South,2.4
+Alabama,143.8,2012,AL,South,2.3
+Alabama,136.6,2011,AL,South,3
+Alabama,134.3,2010,AL,South,3.3
+Alabama,131.6,2009,AL,South,3.7
+Alabama,126.1,2008,AL,South,3.6
+Alabama,120.3,2007,AL,South,3.2
+Alabama,115.6,2006,AL,South,2.2
+Alaska,52,2017,AK,West,9.2
+Alaska,58.9,2016,AK,West,6.7
+Alaska,60.8,2015,AK,West,8.4
+Alaska,62.7,2014,AK,West,6.7
+Alaska,63.7,2013,AK,West,6.7
+Alaska,66.8,2012,AK,West,7
+Alaska,68,2011,AK,West,6.8
+Alaska,68.4,2010,AK,West,8
+Alaska,67.3,2009,AK,West,10
+Alaska,68.5,2008,AK,West,10.3
+Alaska,66.6,2007,AK,West,
+Alaska,63.4,2006,AK,West,3.3
+Arizona,61.2,2017,AZ,West,7.9
+Arizona,70.2,2016,AZ,West,6.1
+Arizona,75.5,2015,AZ,West,5.2
+Arizona,79.7,2014,AZ,West,4.7
+Arizona,80.4,2013,AZ,West,4.5
+Arizona,85.3,2012,AZ,West,5.1
+Arizona,88.6,2011,AZ,West,5
+Arizona,88.5,2010,AZ,West,6.1
+Arizona,84.2,2009,AZ,West,5.7
+Arizona,80.9,2008,AZ,West,5
+Arizona,77.8,2007,AZ,West,4.2
+Arizona,74.3,2006,AZ,West,4.2
+Arkansas,105.4,2017,AR,South,4.9
+Arkansas,114.6,2016,AR,South,4.6
+Arkansas,117.2,2015,AR,South,5.2
+Arkansas,123.2,2014,AR,South,4.9
+Arkansas,120.9,2013,AR,South,4.6
+Arkansas,121.8,2012,AR,South,4.7
+Arkansas,115.2,2011,AR,South,4.8
+Arkansas,120.8,2010,AR,South,5.6
+Arkansas,116,2009,AR,South,6.2
+Arkansas,112.1,2008,AR,South,5.9
+Arkansas,108.2,2007,AR,South,4.6
+Arkansas,98.3,2006,AR,South,4.4
+California,39.5,2017,CA,West,3.6
+California,44.8,2016,CA,West,3.2
+California,47.7,2015,CA,West,3.2
+California,52.7,2014,CA,West,3.2
+California,54.4,2013,CA,West,3.2
+California,56.4,2012,CA,West,3
+California,55.9,2011,CA,West,3.6
+California,55.8,2010,CA,West,3.7
+California,55.6,2009,CA,West,4
+California,55.1,2008,CA,West,3.4
+California,53.6,2007,CA,West,3.1
+California,51,2006,CA,West,2.8
+Colorado,52.9,2017,CO,West,5.6
+Colorado,59.8,2016,CO,West,4.8
+Colorado,65.1,2015,CO,West,5.1
+Colorado,69.6,2014,CO,West,5.4
+Colorado,71.2,2013,CO,West,4.7
+Colorado,73.5,2012,CO,West,4.9
+Colorado,73,2011,CO,West,5.4
+Colorado,72,2010,CO,West,3.9
+Colorado,69.8,2009,CO,West,5
+Colorado,67.7,2008,CO,West,4.4
+Colorado,65.9,2007,CO,West,4.9
+Colorado,62.2,2006,CO,West,3.6
+Connecticut,48,2017,CT,Northeast,22.7
+Connecticut,55.9,2016,CT,Northeast,17.6
+Connecticut,62.3,2015,CT,Northeast,10.7
+Connecticut,66,2014,CT,Northeast,6.5
+Connecticut,67.4,2013,CT,Northeast,5.6
+Connecticut,69.3,2012,CT,Northeast,2
+Connecticut,69.1,2011,CT,Northeast,2.2
+Connecticut,68.6,2010,CT,Northeast,2.7
+Connecticut,68.1,2009,CT,Northeast,2.4
+Connecticut,68.7,2008,CT,Northeast,2.6
+Connecticut,67.5,2007,CT,Northeast,2.8
+Connecticut,64.7,2006,CT,Northeast,2.8
+Delaware,68.3,2017,DE,South,22
+Delaware,79.2,2016,DE,South,11.4
+Delaware,84.4,2015,DE,South,7.8
+Delaware,91,2014,DE,South,7.2
+Delaware,92.7,2013,DE,South,6.3
+Delaware,94,2012,DE,South,4.8
+Delaware,99.7,2011,DE,South,8.3
+Delaware,101.1,2010,DE,South,7.4
+Delaware,97.5,2009,DE,South,6.5
+Delaware,95.4,2008,DE,South,5
+Delaware,92.3,2007,DE,South,3.4
+Delaware,86.6,2006,DE,South,3.1
+District of Columbia,28.5,2017,,,29.8
+District of Columbia,32.5,2016,,,23.8
+District of Columbia,35.7,2015,,,7.1
+District of Columbia,40.1,2014,,,4.7
+District of Columbia,41.1,2013,,,
+District of Columbia,40.3,2012,,,
+District of Columbia,39.8,2011,,,3.4
+District of Columbia,37.1,2010,,,
+District of Columbia,34.4,2009,,,
+District of Columbia,34.5,2008,,,
+District of Columbia,41.2,2007,,,
+District of Columbia,31.7,2006,,,3.9
+Florida,60.9,2017,FL,South,13.3
+Florida,66.6,2016,FL,South,11.1
+Florida,67.1,2015,FL,South,6.3
+Florida,71.4,2014,FL,South,5
+Florida,73.5,2013,FL,South,4.9
+Florida,75.9,2012,FL,South,5.6
+Florida,83.5,2011,FL,South,7.1
+Florida,87.6,2010,FL,South,7.6
+Florida,86.3,2009,FL,South,7
+Florida,84.3,2008,FL,South,6.3
+Florida,82.2,2007,FL,South,6.5
+Florida,79.7,2006,FL,South,5.5
+Georgia,70.9,2017,GA,South,7.9
+Georgia,77.8,2016,GA,South,6.5
+Georgia,79.4,2015,GA,South,6.4
+Georgia,83.8,2014,GA,South,5.4
+Georgia,86.6,2013,GA,South,4.1
+Georgia,89.4,2012,GA,South,4.4
+Georgia,88.6,2011,GA,South,4.7
+Georgia,90.2,2010,GA,South,4.7
+Georgia,88.2,2009,GA,South,4.4
+Georgia,86.3,2008,GA,South,3.5
+Georgia,82.5,2007,GA,South,3.6
+Georgia,79.8,2006,GA,South,3.1
+Hawaii,37,2017,HI,West,2.5
+Hawaii,41.9,2016,HI,West,3.8
+Hawaii,44.3,2015,HI,West,2.7
+Hawaii,47.7,2014,HI,West,2.7
+Hawaii,49.4,2013,HI,West,3.9
+Hawaii,50.4,2012,HI,West,3.2
+Hawaii,50.1,2011,HI,West,4.4
+Hawaii,50.1,2010,HI,West,3.4
+Hawaii,47.8,2009,HI,West,3.6
+Hawaii,46.6,2008,HI,West,2.6
+Hawaii,44.5,2007,HI,West,4.9
+Hawaii,42.3,2006,HI,West,3.1
+Idaho,70.3,2017,ID,West,4
+Idaho,77.6,2016,ID,West,4.8
+Idaho,81.9,2015,ID,West,3.7
+Idaho,87.4,2014,ID,West,3.4
+Idaho,89.2,2013,ID,West,3.5
+Idaho,92,2012,ID,West,3
+Idaho,91.4,2011,ID,West,3.9
+Idaho,88.6,2010,ID,West,3.9
+Idaho,85.2,2009,ID,West,3.2
+Idaho,82.7,2008,ID,West,3.5
+Idaho,78.8,2007,ID,West,3.1
+Idaho,75.6,2006,ID,West,3.7
+Illinois,51.1,2017,IL,Midwest,12.3
+Illinois,56.8,2016,IL,Midwest,9.4
+Illinois,59.1,2015,IL,Midwest,4.2
+Illinois,62.3,2014,IL,Midwest,3
+Illinois,63.7,2013,IL,Midwest,2.4
+Illinois,66.1,2012,IL,Midwest,2.4
+Illinois,64.3,2011,IL,Midwest,2.2
+Illinois,63.1,2010,IL,Midwest,2.4
+Illinois,61,2009,IL,Midwest,2.5
+Illinois,60.2,2008,IL,Midwest,2.2
+Illinois,59.2,2007,IL,Midwest,2.2
+Illinois,55.6,2006,IL,Midwest,4.2
+Indiana,74.2,2017,IN,Midwest,13.6
+Indiana,83.9,2016,IN,Midwest,7.2
+Indiana,89.1,2015,IN,Midwest,4
+Indiana,96.7,2014,IN,Midwest,3.5
+Indiana,106.3,2013,IN,Midwest,2.4
+Indiana,110.5,2012,IN,Midwest,2.9
+Indiana,106.7,2011,IN,Midwest,3.4
+Indiana,107.1,2010,IN,Midwest,3
+Indiana,105.6,2009,IN,Midwest,3.5
+Indiana,103.3,2008,IN,Midwest,3.1
+Indiana,99.7,2007,IN,Midwest,2.8
+Indiana,94.3,2006,IN,Midwest,1.9
+Iowa,56.4,2017,IA,Midwest,4.7
+Iowa,64,2016,IA,Midwest,3.9
+Iowa,68.6,2015,IA,Midwest,3.4
+Iowa,72.3,2014,IA,Midwest,3.3
+Iowa,72.2,2013,IA,Midwest,3.9
+Iowa,74.1,2012,IA,Midwest,4.2
+Iowa,64,2011,IA,Midwest,3.7
+Iowa,62.3,2010,IA,Midwest,3.6
+Iowa,60.4,2009,IA,Midwest,3.5
+Iowa,59.1,2008,IA,Midwest,3
+Iowa,57.1,2007,IA,Midwest,2.5
+Iowa,59.3,2006,IA,Midwest,2.3
+Kansas,69.8,2017,KS,Midwest,3.5
+Kansas,76.9,2016,KS,Midwest,3
+Kansas,80.5,2015,KS,Midwest,4
+Kansas,86.5,2014,KS,Midwest,4.5
+Kansas,88.7,2013,KS,Midwest,4.4
+Kansas,90.3,2012,KS,Midwest,4.8
+Kansas,87.8,2011,KS,Midwest,3.5
+Kansas,86.1,2010,KS,Midwest,2.8
+Kansas,82.8,2009,KS,Midwest,4.1
+Kansas,82.7,2008,KS,Midwest,2.8
+Kansas,80.6,2007,KS,Midwest,3.5
+Kansas,77.5,2006,KS,Midwest,3.6
+Kentucky,86.8,2017,KY,South,22.9
+Kentucky,97.2,2016,KY,South,17.3
+Kentucky,102.6,2015,KY,South,14.2
+Kentucky,110,2014,KY,South,11.1
+Kentucky,111.7,2013,KY,South,9.5
+Kentucky,127.9,2012,KY,South,10.7
+Kentucky,137,2011,KY,South,12.5
+Kentucky,136.5,2010,KY,South,11.9
+Kentucky,135.2,2009,KY,South,8.5
+Kentucky,136.6,2008,KY,South,7.7
+Kentucky,130.8,2007,KY,South,7.2
+Kentucky,122.6,2006,KY,South,7.1
+Louisiana,89.5,2017,LA,South,5.9
+Louisiana,98.1,2016,LA,South,3.9
+Louisiana,100.4,2015,LA,South,3
+Louisiana,108.9,2014,LA,South,2.6
+Louisiana,112.4,2013,LA,South,2.4
+Louisiana,113,2012,LA,South,2.2
+Louisiana,111.7,2011,LA,South,1.6
+Louisiana,112.6,2010,LA,South,2
+Louisiana,113,2009,LA,South,1.9
+Louisiana,113.7,2008,LA,South,2.1
+Louisiana,110.1,2007,LA,South,4.2
+Louisiana,109.2,2006,LA,South,3.7
+Maine,55.7,2017,ME,Northeast,24.2
+Maine,66.9,2016,ME,Northeast,20.5
+Maine,76.5,2015,ME,Northeast,14.1
+Maine,82.4,2014,ME,Northeast,10.3
+Maine,85.9,2013,ME,Northeast,6.9
+Maine,89.7,2012,ME,Northeast,5.9
+Maine,93.1,2011,ME,Northeast,5.7
+Maine,92.8,2010,ME,Northeast,6
+Maine,87.9,2009,ME,Northeast,7.2
+Maine,88.7,2008,ME,Northeast,6.8
+Maine,85.4,2007,ME,Northeast,6.3
+Maine,83.6,2006,ME,Northeast,6
+Maryland,51.7,2017,MD,South,30
+Maryland,58.7,2016,MD,South,24.7
+Maryland,63,2015,MD,South,12
+Maryland,67.6,2014,MD,South,10.2
+Maryland,69,2013,MD,South,7.7
+Maryland,72.2,2012,MD,South,6.9
+Maryland,72.9,2011,MD,South,6.7
+Maryland,71.2,2010,MD,South,6.2
+Maryland,66.9,2009,MD,South,5.6
+Maryland,65.5,2008,MD,South,5.5
+Maryland,63.3,2007,MD,South,5.6
+Maryland,60.1,2006,MD,South,5.2
+Massachusetts,40.1,2017,MA,Northeast,25.6
+Massachusetts,47.1,2016,MA,Northeast,25.1
+Massachusetts,54,2015,MA,Northeast,16.3
+Massachusetts,59.6,2014,MA,Northeast,9.4
+Massachusetts,63,2013,MA,Northeast,4.6
+Massachusetts,65.7,2012,MA,Northeast,3.8
+Massachusetts,65.9,2011,MA,Northeast,3.8
+Massachusetts,67.9,2010,MA,Northeast,4.2
+Massachusetts,68.9,2009,MA,Northeast,4.4
+Massachusetts,69.2,2008,MA,Northeast,3.4
+Massachusetts,68.2,2007,MA,Northeast,4.9
+Massachusetts,66,2006,MA,Northeast,5.2
+Michigan,74.2,2017,MI,Midwest,17
+Michigan,84.9,2016,MI,Midwest,13.4
+Michigan,90.5,2015,MI,Midwest,8.4
+Michigan,98,2014,MI,Midwest,5.4
+Michigan,98.9,2013,MI,Midwest,4.4
+Michigan,100.7,2012,MI,Midwest,3.9
+Michigan,98.8,2011,MI,Midwest,3.9
+Michigan,96,2010,MI,Midwest,4.1
+Michigan,91.6,2009,MI,Midwest,4
+Michigan,89.9,2008,MI,Midwest,3.7
+Michigan,85.6,2007,MI,Midwest,3.5
+Michigan,80.2,2006,MI,Midwest,4.4
+Minnesota,41,2017,MN,Midwest,5.8
+Minnesota,46.9,2016,MN,Midwest,4.6
+Minnesota,52.1,2015,MN,Midwest,3.4
+Minnesota,56.6,2014,MN,Midwest,3.4
+Minnesota,58.3,2013,MN,Midwest,3.3
+Minnesota,60.9,2012,MN,Midwest,3.3
+Minnesota,60,2011,MN,Midwest,3.1
+Minnesota,59,2010,MN,Midwest,3.1
+Minnesota,58.6,2009,MN,Midwest,3.5
+Minnesota,56.5,2008,MN,Midwest,2.8
+Minnesota,53.7,2007,MN,Midwest,2.6
+Minnesota,50.3,2006,MN,Midwest,2.1
+Mississippi,92.9,2017,MS,South,5
+Mississippi,105.6,2016,MS,South,4.5
+Mississippi,110.9,2015,MS,South,3.5
+Mississippi,116.3,2014,MS,South,2.7
+Mississippi,119.6,2013,MS,South,2.6
+Mississippi,121.8,2012,MS,South,3
+Mississippi,117.2,2011,MS,South,2.3
+Mississippi,118.1,2010,MS,South,2.9
+Mississippi,117.3,2009,MS,South,2.7
+Mississippi,113.2,2008,MS,South,3.1
+Mississippi,109.9,2007,MS,South,2.9
+Mississippi,102.7,2006,MS,South,1.9
+Missouri,71.8,2017,MO,Midwest,12.5
+Missouri,80.4,2016,MO,Midwest,10.3
+Missouri,84.5,2015,MO,Midwest,6.5
+Missouri,90.7,2014,MO,Midwest,5.6
+Missouri,93.3,2013,MO,Midwest,5.3
+Missouri,95.4,2012,MO,Midwest,4.5
+Missouri,91.6,2011,MO,Midwest,5
+Missouri,91,2010,MO,Midwest,6
+Missouri,88.5,2009,MO,Midwest,4.5
+Missouri,86.8,2008,MO,Midwest,5
+Missouri,84.3,2007,MO,Midwest,4.8
+Missouri,80.5,2006,MO,Midwest,5.4
+Montana,61.1,2017,MT,West,2.6
+Montana,69.8,2016,MT,West,2.7
+Montana,73.3,2015,MT,West,3.7
+Montana,80.1,2014,MT,West,4.2
+Montana,84.2,2013,MT,West,5.4
+Montana,87.7,2012,MT,West,4.4
+Montana,85.3,2011,MT,West,5.8
+Montana,87.2,2010,MT,West,4.3
+Montana,85.8,2009,MT,West,8.4
+Montana,85.3,2008,MT,West,5.8
+Montana,81.1,2007,MT,West,5.2
+Montana,79.1,2006,MT,West,4.1
+Nebraska,56.6,2017,NE,Midwest,2.5
+Nebraska,62.8,2016,NE,Midwest,1.8
+Nebraska,65.5,2015,NE,Midwest,2.4
+Nebraska,70.1,2014,NE,Midwest,2.2
+Nebraska,71.3,2013,NE,Midwest,1.9
+Nebraska,73.2,2012,NE,Midwest,2.6
+Nebraska,68.8,2011,NE,Midwest,2.6
+Nebraska,69,2010,NE,Midwest,2.6
+Nebraska,66.4,2009,NE,Midwest,3
+Nebraska,66.2,2008,NE,Midwest,1.4
+Nebraska,65.1,2007,NE,Midwest,1.9
+Nebraska,64.3,2006,NE,Midwest,1.6
+Nevada,73,2017,NV,West,8.5
+Nevada,80.7,2016,NV,West,8.4
+Nevada,85.4,2015,NV,West,9.1
+Nevada,90.1,2014,NV,West,8.5
+Nevada,91.1,2013,NV,West,9.8
+Nevada,98.9,2012,NV,West,11.7
+Nevada,100.3,2011,NV,West,12.7
+Nevada,97.3,2010,NV,West,12.6
+Nevada,94,2009,NV,West,12.6
+Nevada,97,2008,NV,West,10.1
+Nevada,90.2,2007,NV,West,10
+Nevada,87.7,2006,NV,West,8.4
+New Hampshire,52.8,2017,NH,Northeast,29.9
+New Hampshire,64.3,2016,NH,Northeast,30.8
+New Hampshire,74.8,2015,NH,Northeast,24.6
+New Hampshire,79.6,2014,NH,Northeast,16.1
+New Hampshire,82,2013,NH,Northeast,6.3
+New Hampshire,83.7,2012,NH,Northeast,5.9
+New Hampshire,80.9,2011,NH,Northeast,7.4
+New Hampshire,81.6,2010,NH,Northeast,6.9
+New Hampshire,81.5,2009,NH,Northeast,7
+New Hampshire,81.7,2008,NH,Northeast,4.7
+New Hampshire,78.5,2007,NH,Northeast,8
+New Hampshire,75,2006,NH,Northeast,5.5
+New Jersey,44.2,2017,NJ,Northeast,17.6
+New Jersey,52.6,2016,NJ,Northeast,10.7
+New Jersey,56,2015,NJ,Northeast,5
+New Jersey,57.2,2014,NJ,Northeast,3.8
+New Jersey,58.3,2013,NJ,Northeast,3.3
+New Jersey,60.1,2012,NJ,Northeast,3.1
+New Jersey,61.5,2011,NJ,Northeast,3
+New Jersey,61,2010,NJ,Northeast,2.4
+New Jersey,59.9,2009,NJ,Northeast,0.2
+New Jersey,59.5,2008,NJ,Northeast,1.9
+New Jersey,57.2,2007,NJ,Northeast,2.3
+New Jersey,54.7,2006,NJ,Northeast,2.3
+New Mexico,56.4,2017,NM,West,9.4
+New Mexico,65.1,2016,NM,West,10.1
+New Mexico,69.8,2015,NM,West,8.7
+New Mexico,71.5,2014,NM,West,12.8
+New Mexico,71.4,2013,NM,West,9.8
+New Mexico,76.8,2012,NM,West,9.3
+New Mexico,81.6,2011,NM,West,7.3
+New Mexico,81.9,2010,NM,West,6.8
+New Mexico,75.3,2009,NM,West,6.4
+New Mexico,71.4,2008,NM,West,11.4
+New Mexico,69,2007,NM,West,10.3
+New Mexico,61.8,2006,NM,West,10.4
+New York,37.8,2017,NY,Northeast,13.7
+New York,42.7,2016,NY,Northeast,11.4
+New York,45.1,2015,NY,Northeast,6.6
+New York,43.9,2014,NY,Northeast,4.8
+New York,46.7,2013,NY,Northeast,4.6
+New York,51.8,2012,NY,Northeast,4.7
+New York,51.1,2011,NY,Northeast,4.6
+New York,51,2010,NY,Northeast,4
+New York,49.5,2009,NY,Northeast,3.5
+New York,48.4,2008,NY,Northeast,3.6
+New York,46.1,2007,NY,Northeast,3.3
+New York,44.2,2006,NY,Northeast,3.3
+North Carolina,72,2017,NC,South,15.8
+North Carolina,82.5,2016,NC,South,10.7
+North Carolina,88.4,2015,NC,South,7.9
+North Carolina,93.7,2014,NC,South,6.7
+North Carolina,96.7,2013,NC,South,5.8
+North Carolina,98.6,2012,NC,South,6.1
+North Carolina,93.5,2011,NC,South,7.1
+North Carolina,93.1,2010,NC,South,6.7
+North Carolina,89.3,2009,NC,South,7.5
+North Carolina,88.6,2008,NC,South,7.5
+North Carolina,87.5,2007,NC,South,6.8
+North Carolina,85.2,2006,NC,South,6.4
+North Dakota,41.5,2017,ND,Midwest,3.3
+North Dakota,47.8,2016,ND,Midwest,4.2
+North Dakota,53,2015,ND,Midwest,2.8
+North Dakota,58.1,2014,ND,Midwest,3.4
+North Dakota,60.1,2013,ND,Midwest,
+North Dakota,62.1,2012,ND,Midwest,
+North Dakota,61.3,2011,ND,Midwest,
+North Dakota,63,2010,ND,Midwest,
+North Dakota,60.3,2009,ND,Midwest,
+North Dakota,61.7,2008,ND,Midwest,
+North Dakota,59.3,2007,ND,Midwest,
+North Dakota,56,2006,ND,Midwest,
+Ohio,63.5,2017,OH,Midwest,33.5
+Ohio,75.3,2016,OH,Midwest,24.2
+Ohio,82.7,2015,OH,Midwest,15
+Ohio,89.5,2014,OH,Midwest,9.7
+Ohio,93.1,2013,OH,Midwest,5.9
+Ohio,97.5,2012,OH,Midwest,5.7
+Ohio,101.5,2011,OH,Midwest,6.5
+Ohio,102.4,2010,OH,Midwest,6.1
+Ohio,100.4,2009,OH,Midwest,3.5
+Ohio,97.5,2008,OH,Midwest,4.5
+Ohio,92.7,2007,OH,Midwest,4.3
+Ohio,87.7,2006,OH,Midwest,4
+Oklahoma,88.1,2017,OK,South,7.5
+Oklahoma,97.9,2016,OK,South,9.5
+Oklahoma,104.4,2015,OK,South,9.4
+Oklahoma,110.9,2014,OK,South,11.6
+Oklahoma,123.3,2013,OK,South,12.1
+Oklahoma,127.4,2012,OK,South,12.6
+Oklahoma,122.3,2011,OK,South,11.4
+Oklahoma,119.6,2010,OK,South,12.4
+Oklahoma,115,2009,OK,South,13.9
+Oklahoma,111.3,2008,OK,South,10.1
+Oklahoma,114.4,2007,OK,South,12.3
+Oklahoma,108.7,2006,OK,South,9.8
+Oregon,66.1,2017,OR,West,4.4
+Oregon,76.3,2016,OR,West,4
+Oregon,84.2,2015,OR,West,4.6
+Oregon,91.9,2014,OR,West,4.5
+Oregon,94.2,2013,OR,West,4.1
+Oregon,98.7,2012,OR,West,4.5
+Oregon,100.7,2011,OR,West,5.6
+Oregon,101.2,2010,OR,West,5.2
+Oregon,99.3,2009,OR,West,5.4
+Oregon,99.1,2008,OR,West,5.3
+Oregon,95.5,2007,OR,West,5.6
+Oregon,91,2006,OR,West,6.6
+Pennsylvania,57.7,2017,PA,Northeast,17.5
+Pennsylvania,69.5,2016,PA,Northeast,13.6
+Pennsylvania,75.5,2015,PA,Northeast,6.3
+Pennsylvania,79.9,2014,PA,Northeast,4.7
+Pennsylvania,81.6,2013,PA,Northeast,3.9
+Pennsylvania,83.3,2012,PA,Northeast,3.6
+Pennsylvania,81.7,2011,PA,Northeast,3.5
+Pennsylvania,81,2010,PA,Northeast,3.5
+Pennsylvania,78.1,2009,PA,Northeast,3.3
+Pennsylvania,76.5,2008,PA,Northeast,3.1
+Pennsylvania,73.7,2007,PA,Northeast,2.8
+Pennsylvania,69.5,2006,PA,Northeast,2.3
+Rhode Island,51.2,2017,RI,Northeast,24.2
+Rhode Island,60.3,2016,RI,Northeast,22.6
+Rhode Island,65.7,2015,RI,Northeast,19.7
+Rhode Island,72.8,2014,RI,Northeast,13.3
+Rhode Island,76.9,2013,RI,Northeast,10.5
+Rhode Island,83.2,2012,RI,Northeast,9.4
+Rhode Island,82.5,2011,RI,Northeast,8.6
+Rhode Island,82.7,2010,RI,Northeast,7.1
+Rhode Island,82.5,2009,RI,Northeast,5.7
+Rhode Island,82.9,2008,RI,Northeast,5.5
+Rhode Island,82.2,2007,RI,Northeast,4.1
+Rhode Island,78.7,2006,RI,Northeast,6.9
+South Carolina,79.3,2017,SC,South,12.4
+South Carolina,89.4,2016,SC,South,10.1
+South Carolina,95.1,2015,SC,South,8.9
+South Carolina,101.3,2014,SC,South,8.8
+South Carolina,103,2013,SC,South,4.2
+South Carolina,104,2012,SC,South,4.1
+South Carolina,96.8,2011,SC,South,4.4
+South Carolina,98.6,2010,SC,South,5
+South Carolina,95.8,2009,SC,South,4.3
+South Carolina,94.1,2008,SC,South,3.8
+South Carolina,91.7,2007,SC,South,3.5
+South Carolina,90.4,2006,SC,South,4.4
+South Dakota,49,2017,SD,Midwest,2.5
+South Dakota,54.8,2016,SD,Midwest,3.1
+South Dakota,59.1,2015,SD,Midwest,
+South Dakota,61.7,2014,SD,Midwest,3.5
+South Dakota,60.6,2013,SD,Midwest,2.8
+South Dakota,60.1,2012,SD,Midwest,
+South Dakota,55.1,2011,SD,Midwest,3.6
+South Dakota,54,2010,SD,Midwest,2.9
+South Dakota,52.3,2009,SD,Midwest,3.2
+South Dakota,52.1,2008,SD,Midwest,3.3
+South Dakota,49.9,2007,SD,Midwest,
+South Dakota,50,2006,SD,Midwest,2.6
+Tennessee,94.4,2017,TN,South,15.6
+Tennessee,107.5,2016,TN,South,14.4
+Tennessee,114.9,2015,TN,South,12.2
+Tennessee,121.3,2014,TN,South,10.1
+Tennessee,127.1,2013,TN,South,9.4
+Tennessee,136.1,2012,TN,South,8.9
+Tennessee,138.5,2011,TN,South,8
+Tennessee,140,2010,TN,South,8.3
+Tennessee,138.4,2009,TN,South,6.8
+Tennessee,132.9,2008,TN,South,6.7
+Tennessee,128.8,2007,TN,South,6.5
+Tennessee,124.8,2006,TN,South,6.6
+Texas,53.1,2017,TX,South,2.9
+Texas,57.6,2016,TX,South,2.6
+Texas,59.8,2015,TX,South,2.4
+Texas,67,2014,TX,South,2.2
+Texas,70,2013,TX,South,2.1
+Texas,73.4,2012,TX,South,2.3
+Texas,72,2011,TX,South,2.7
+Texas,73,2010,TX,South,2.9
+Texas,71.8,2009,TX,South,2.8
+Texas,71.3,2008,TX,South,2.3
+Texas,71.2,2007,TX,South,2.8
+Texas,66.8,2006,TX,South,3.2
+Utah,63.8,2017,UT,West,10.3
+Utah,70.4,2016,UT,West,11.6
+Utah,74.4,2015,UT,West,12.8
+Utah,78.8,2014,UT,West,12.9
+Utah,82.1,2013,UT,West,13
+Utah,84.5,2012,UT,West,12.5
+Utah,85.2,2011,UT,West,11.5
+Utah,86.6,2010,UT,West,9.7
+Utah,86.9,2009,UT,West,10.9
+Utah,91.3,2008,UT,West,10.4
+Utah,89.8,2007,UT,West,11.6
+Utah,87,2006,UT,West,11.2
+Vermont,50.5,2017,VT,Northeast,15.9
+Vermont,58.6,2016,VT,Northeast,11.8
+Vermont,60.1,2015,VT,Northeast,8.3
+Vermont,50.4,2014,VT,Northeast,5.7
+Vermont,52.2,2013,VT,Northeast,8.3
+Vermont,54.6,2012,VT,Northeast,6.1
+Vermont,53.6,2011,VT,Northeast,7.2
+Vermont,54.1,2010,VT,Northeast,5.3
+Vermont,54.5,2009,VT,Northeast,5
+Vermont,56.5,2008,VT,Northeast,7.5
+Vermont,56,2007,VT,Northeast,6.3
+Vermont,56.9,2006,VT,Northeast,8
+Virginia,52.9,2017,VA,South,11.9
+Virginia,63.4,2016,VA,South,10.5
+Virginia,68.1,2015,VA,South,5.9
+Virginia,73.5,2014,VA,South,5.6
+Virginia,76.6,2013,VA,South,4.8
+Virginia,79.6,2012,VA,South,4.3
+Virginia,76.6,2011,VA,South,5.1
+Virginia,75.5,2010,VA,South,3.8
+Virginia,74.1,2009,VA,South,3.9
+Virginia,73,2008,VA,South,4.4
+Virginia,70.1,2007,VA,South,3.9
+Virginia,67.2,2006,VA,South,3.4
+Washington,57.2,2017,WA,West,5.5
+Washington,64.9,2016,WA,West,5.3
+Washington,69.8,2015,WA,West,4.7
+Washington,74.2,2014,WA,West,4.9
+Washington,75.2,2013,WA,West,5.6
+Washington,78.7,2012,WA,West,6.5
+Washington,81.6,2011,WA,West,7
+Washington,85,2010,WA,West,6.9
+Washington,86.1,2009,WA,West,7.9
+Washington,86.6,2008,WA,West,7.9
+Washington,84.4,2007,WA,West,7.1
+Washington,80.8,2006,WA,West,7.7
+West Virginia,81.3,2017,WV,South,43.1
+West Virginia,96,2016,WV,South,33.7
+West Virginia,111.3,2015,WV,South,26.8
+West Virginia,126.4,2014,WV,South,22.3
+West Virginia,129,2013,WV,South,21.9
+West Virginia,136.9,2012,WV,South,22.6
+West Virginia,139.6,2011,WV,South,27.5
+West Virginia,143.1,2010,WV,South,22.4
+West Virginia,146.9,2009,WV,South,8.1
+West Virginia,145.5,2008,WV,South,18
+West Virginia,135.1,2007,WV,South,16.5
+West Virginia,129.9,2006,WV,South,14.7
+Wisconsin,52.6,2017,WI,Midwest,11.5
+Wisconsin,62.2,2016,WI,Midwest,9.5
+Wisconsin,67.5,2015,WI,Midwest,6
+Wisconsin,71.9,2014,WI,Midwest,6.2
+Wisconsin,73.8,2013,WI,Midwest,6.1
+Wisconsin,76.8,2012,WI,Midwest,4.8
+Wisconsin,75.2,2011,WI,Midwest,5.2
+Wisconsin,74.4,2010,WI,Midwest,5.1
+Wisconsin,71.9,2009,WI,Midwest,4.9
+Wisconsin,70.6,2008,WI,Midwest,4.7
+Wisconsin,69.2,2007,WI,Midwest,5.3
+Wisconsin,64.7,2006,WI,Midwest,4.8
+Wyoming,64.8,2017,WY,West,6.2
+Wyoming,71.1,2016,WY,West,4.8
+Wyoming,75.4,2015,WY,West,6
+Wyoming,80.9,2014,WY,West,6.2
+Wyoming,81.5,2013,WY,West,5.5
+Wyoming,80.5,2012,WY,West,4.7
+Wyoming,78.2,2011,WY,West,6.2
+Wyoming,80.4,2010,WY,West,6.4
+Wyoming,81,2009,WY,West,4.3
+Wyoming,81,2008,WY,West,5.3
+Wyoming,80.8,2007,WY,West,
+Wyoming,79.9,2006,WY,West,
