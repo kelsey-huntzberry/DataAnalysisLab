@@ -371,6 +371,10 @@ for col_name in mode_impute_cols:
 
 # COMMAND ----------
 
+display(holdout)
+
+# COMMAND ----------
+
 # MAGIC %md
 # MAGIC ### Data Pre-Processing
 # MAGIC #### Data Imputation
@@ -424,8 +428,9 @@ for col_name in mode_impute_cols:
 import mlflow
 import mlflow.spark
 
-# experiment_id = mlflow.create_experiment("/Users/contact@kelseyhuntzberry.com/experiments/PySpark ML Class Experiment")
-mlflow.set_experiment("/Users/contact@kelseyhuntzberry.com/experiments/PySpark ML Class Experiment")
+experiment_name = "/Users/contact@kelseyhuntzberry.com/experiments/PySpark ML Class Experiment"
+# experiment_id = mlflow.create_experiment(experiment_name)
+mlflow.set_experiment(experiment_name)
 
 # COMMAND ----------
 
@@ -442,6 +447,7 @@ mlflow.set_experiment("/Users/contact@kelseyhuntzberry.com/experiments/PySpark M
 # MAGIC %md
 # MAGIC ### Log Models and Parameters
 # MAGIC - To log hyperparameters: mlflow.log_param("parameter_name", 1)
+# MAGIC - To set and log a tag: mlflow.set_tag('tag_name', 'tag_value')
 # MAGIC - To log a model so it can be reproduced and the model file will be saved: mlflow.spark.log_model(model_object, "model_name")
 # MAGIC - To log a metric like accuracy or f-score: mlflow.log_metric("metric_name", 0.83)
 # MAGIC - To log an artifact/file like a .csv file or graph: First export the file to storage then log the file using the path
@@ -469,6 +475,9 @@ from pyspark.mllib.util import MLUtils
 from pyspark.ml import Pipeline
 
 with mlflow.start_run(run_name="lasso_reg_model") as run:
+  
+    # Set tag for run
+    mlflow.set_tag('run_type','lasso for feature selection')
   
     # Getting numeric and categorical column names
     categoricalCols = [field for (field, dataType) in train.dtypes if ((dataType == "string") & (field != "NOPRIOR"))]
@@ -510,7 +519,7 @@ with mlflow.start_run(run_name="lasso_reg_model") as run:
     lr_pipeline_trans = lr_pipeline_model.transform(test)
 
     # Log model
-    mlflow.spark.log_model(lr_pipeline_model, "lr_model")
+    mlflow.spark.log_model(lr_pipeline_model, "lasso_reg_model")
     
     predictionAndLabels = lr_pipeline_trans.select('NOPRIOR','probability').rdd.map(lambda row: (float(row['probability'][1]), float(row['NOPRIOR'])))
     metrics = BinaryClassificationMetrics(predictionAndLabels)
@@ -569,6 +578,9 @@ from pyspark.ml.classification import RandomForestClassifier
 
 with mlflow.start_run(run_name="rf_base_model") as run:
     
+    # Set tag for run
+    mlflow.set_tag('run_type','random forest for feature selection')
+    
     # Create model
     rf = RandomForestClassifier(labelCol="NOPRIOR", featuresCol="features")
     
@@ -583,7 +595,7 @@ with mlflow.start_run(run_name="rf_base_model") as run:
     rf_pipeline_trans = rf_pipeline_model.transform(test)
     
     # Log model
-    mlflow.spark.log_model(rf_pipeline_model, "rf_model")
+    mlflow.spark.log_model(rf_pipeline_model, "rf_base_model")
 
     predictionAndLabels = lr_pipeline_trans.select('NOPRIOR','probability').rdd.map(lambda row: (float(row['probability'][1]), float(row['NOPRIOR'])))
     metrics = BinaryClassificationMetrics(predictionAndLabels)
@@ -631,6 +643,7 @@ display(feature_imp_rf)
 
 # COMMAND ----------
 
+# Subset to smaller number of important features
 train_sm = train.drop('DIVISION_OHE','HERFLG_OHE','RACE_OHE','ALCFLG_OHE','VET_OHE')
 test_sm = test.drop('DIVISION_OHE','HERFLG_OHE','RACE_OHE','ALCFLG_OHE','VET_OHE')
 holdout_sm = holdout.drop('DIVISION_OHE','HERFLG_OHE','RACE_OHE','ALCFLG_OHE','VET_OHE')
@@ -662,7 +675,10 @@ from pyspark.ml.feature import StringIndexer, VectorAssembler, OneHotEncoder
 from pyspark.ml import Pipeline
 
 with mlflow.start_run(run_name="gbt_maxDepth_stepSize_gs") as run:
-
+    
+    # Set tag for run
+    mlflow.set_tag('run_type','gbt grid search')
+  
     # Getting numeric and categorical column names
     categoricalCols_sm = [field for (field, dataType) in train_sm.dtypes if ((dataType == "string") & (field != "NOPRIOR"))]
     numericCols_sm = [field for (field, dataType) in train_sm.dtypes if ((dataType == "double") & (field != "NOPRIOR"))]
@@ -708,21 +724,24 @@ with mlflow.start_run(run_name="gbt_maxDepth_stepSize_gs") as run:
 
     # Fit the pipeline with the steps created above
     gbt_tvs_fitted = gbt_tvs.fit(teds_recoded)
-    gbt_pred = gbt_tvs_fitted.transform(teds_recoded)
+    # Retrieves only best model in the grid search according to ROC AUC to calculate full evaluation metrics on
+    gbt_best_model = gbt_tvs_fitted.bestModel
+    
+    gbt_pred = gbt_best_model.transform(teds_recoded)
 
     # Evaluate model
     eval_test_metric = bin_eval_gbt.evaluate(gbt_pred)
 
     # Log model
-    mlflow.spark.log_model(gbt_tvs_fitted, "gbt_maxDepth_stepSize")
+    mlflow.spark.log_model(gbt_best_model, "gbt_maxDepth_stepSize_gs")
 
     # Log model parameters
     mlflow.log_param("maxDepth", gbt.maxDepth)
     mlflow.log_param("stepSize", gbt.stepSize)
 
-    predictionAndLabels = lr_pipeline_trans.select('NOPRIOR','probability').rdd.map(lambda row: (float(row['probability'][1]), float(row['NOPRIOR'])))
+    predictionAndLabels = gbt_pred.select('NOPRIOR','probability').rdd.map(lambda row: (float(row['probability'][1]), float(row['NOPRIOR'])))
     metrics = BinaryClassificationMetrics(predictionAndLabels)
-    
+
     # Calculate model evaluation metrics
     TN = gbt_pred.filter('prediction = 0 AND NOPRIOR = prediction').count()
     TP = gbt_pred.filter('prediction = 1 AND NOPRIOR = prediction').count()
@@ -749,6 +768,65 @@ print("precision is: " + str(precision))
 print("recall is: " + str(recall))
 print("f-score is: " + str(F))
 print("Area under ROC is: " + str(metrics.areaUnderROC))
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC ### Automatically Choosing the Best Model
+# MAGIC We want to choose the best model without human intervention. In real life you would run a much more exhaustive model validation, but for now we will choose the best model from only those small number of models run above. We will use the **f-score** as the evaluation metric for choosing the best model.
+
+# COMMAND ----------
+
+# Retrieving experiment name and ID
+experiment = mlflow.get_experiment_by_name(experiment_name)
+experiment_id = experiment.experiment_id
+
+# Retrieving information on all runs in this experiment, ordering by f-score
+run_data = mlflow.search_runs([experiment_id], order_by=["metrics.`f-score` DESC"])
+
+# COMMAND ----------
+
+# Showing all runs below
+run_data
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC ### Model Registry
+# MAGIC The Databricks model registry allows you to register and version models to allow for easy deployment. I am registering the best model found above as a new version in the model registry.
+
+# COMMAND ----------
+
+# Retrieving run ID and path of the model from dataframe above
+best_run_id = run_data.loc[:,'run_id'][0]
+source_path = run_data.loc[:,'artifact_uri'][0] + '/' + run_data.loc[:,'tags.mlflow.runName'][0]
+
+# Using the run ID to retrieve the run
+best_run = mlflow.get_run(run_id=best_run_id)
+
+from mlflow.tracking import MlflowClient
+
+model_register_name = "substance-abuse-best-model"
+
+client = MlflowClient()
+# Commented out because I already created the model and am now creating new versions of it
+#client.create_registered_model(model_register_name)
+
+# Creating new model versions
+result = client.create_model_version(
+    name=model_register_name,
+    source=source_path,
+    run_id=best_run_id
+)
+
+# Setting model stage as "Staging"
+model_version = result.version
+
+client.transition_model_version_stage(
+    name=model_register_name,
+    version=model_version,
+    stage="Staging"
+)
 
 # COMMAND ----------
 
