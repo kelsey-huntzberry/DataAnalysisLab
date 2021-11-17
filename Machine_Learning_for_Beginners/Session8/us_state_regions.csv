@@ -1,0 +1,51 @@
+State,StateAbbr,Region
+Alabama,AL,South
+Alaska,AK,West
+Arizona,AZ,West
+Arkansas,AR,South
+California,CA,West
+Colorado,CO,West
+Connecticut,CT,Northeast
+Delaware,DE,South
+Florida,FL,South
+Georgia,GA,South
+Hawaii,HI,West
+Idaho,ID,West
+Illinois,IL,Midwest
+Indiana,IN,Midwest
+Iowa,IA,Midwest
+Kansas,KS,Midwest
+Kentucky,KY,South
+Louisiana,LA,South
+Maine,ME,Northeast
+Maryland,MD,South
+Massachusetts,MA,Northeast
+Michigan,MI,Midwest
+Minnesota,MN,Midwest
+Mississippi,MS,South
+Missouri,MO,Midwest
+Montana,MT,West
+Nebraska,NE,Midwest
+Nevada,NV,West
+New Hampshire,NH,Northeast
+New Jersey,NJ,Northeast
+New Mexico,NM,West
+New York,NY,Northeast
+North Carolina,NC,South
+North Dakota,ND,Midwest
+Ohio,OH,Midwest
+Oklahoma,OK,South
+Oregon,OR,West
+Pennsylvania,PA,Northeast
+Rhode Island,RI,Northeast
+South Carolina,SC,South
+South Dakota,SD,Midwest
+Tennessee,TN,South
+Texas,TX,South
+Utah,UT,West
+Vermont,VT,Northeast
+Virginia,VA,South
+Washington,WA,West
+West Virginia,WV,South
+Wisconsin,WI,Midwest
+Wyoming,WY,West
